@@ -12,5 +12,5 @@ Linear Regression is a supervised machine learning algorithm that predicts a con
 * We define the cost funciton MSE (Mean Square Error) that measures the average squared differnce between actual and predicted values. Our goal is to minimize this cost function in order to improve the accuracy of the model.
 
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/MSE.png'>
 </p>
