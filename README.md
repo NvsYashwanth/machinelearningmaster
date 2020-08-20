@@ -19,7 +19,7 @@ Linear Regression is a supervised machine learning algorithm that predicts a con
 ## Hypothesis
 1. There exists a linear relationship between target and feature variables. This can be verified using scatterplots.
 2. There is little or no multicollinearity between feature variables. The same can be checked using pariplot and heatmaps.
-3. Error terms are normally distributed. 
+3. Error terms are normally distributed. Perform residual analysis to verify the same.
 
 ## Predictions
 ### Scikit Learn
