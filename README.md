@@ -1,5 +1,5 @@
 # Linear Regression
-Linear Regression is a supervised machine learning algorithm that predicts a continuous output.
+### Linear Regression is a supervised machine learning algorithm that predicts a continuous output.
 
 * We define the linear relationship for a given dependent variable `y` as ouput and the independent variable `x`as input. The model tries to fit a straight line by predicting the coefficients `m`(slope) and `b`(intercept or the bias term) where variables `m` and `b` are optimized to produce accurate predictions.
 <p align='center'>
