@@ -19,7 +19,7 @@
 
 ## Training
 ### ***For small number of features***
-### Normal Equation
+#### Normal Equation
 * Also regarded as the closed form.
 <p align='center'>
   <img src=''>
@@ -27,14 +27,18 @@
 
 `Complexity is : O(n**3)`
 
-### Pseudoinverse
+#### Pseudoinverse
 * LinearRegression() of the scikit learn computes pseudoinverse using SVD (Singular Value Decomposition). This computationally efficient than Normal Equation especially when the matrix X is not invertible (singular).
 
 `Complexity is : O(n**2)`
 
 
+
+
+
+
 ### ***For large number of features ~100,000***
-### Gradient descent
+#### Gradient descent
 *
 
 ## Cost Function
