@@ -22,7 +22,7 @@
 #### Normal Equation
 * Also regarded as the closed form.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/normal%20eq.png'>
 </p>
 
 `Complexity is : O(n**3)`
