@@ -74,3 +74,14 @@
 </p>
 
 * When using Gradient Descent, one should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
+
+
+## Types Of Gradient Descnet
+* Before getting into further details let us define ***partial derivates***. 
+`In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivates.`
+<p align='center'>
+  <img src=''>
+</p>
+
+### Batch Gradient Descent
+* Batch Gradient Descent uses whole batch of training data at every step of training step. Thus it is very slow for larger datasets.
