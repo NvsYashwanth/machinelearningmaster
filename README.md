@@ -22,7 +22,7 @@
 #### Normal Equation
 * Also regarded as the closed form.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/normal%20eq.png'>
 </p>
 
 `Complexity is : O(n**3)`
@@ -32,23 +32,20 @@
 
 `Complexity is : O(n**2)`
 
-
-
-
-
-
 ### ***For large number of features ~100,000***
-#### Gradient descent
-*
+#### Gradient Descent
+* Gradient descent is an optimization algorithm used to minimize some function (here in our case cost function that describes error) iteratively by moving in the negative direction of the gradient. 
+* To undestand this algorithm, let us consider the case of a man trying to get to the bottom of the valley. The best way to get down quickly is to move in the direction of the steepest slope. Gradient Desent achieves the same by measuring the local gradient of the error function and goes in the direction of descending gradient. 
 
-## Cost Function
-* We define the cost funciton MSE (Mean Square Error) that measures the average squared differnce between actual and predicted values. Our goal is to minimize this cost function in order to improve the accuracy of the model.
+***Cost Function***
+* Cost function tells us how good our model is at making predictions. It has its own curve and gradient.
+* For the Linear Regression model, we define the cost funciton MSE (Mean Square Error) that measures the average squared differnce between actual and predicted values. Our goal is to minimize this cost function in order to improve the accuracy of the model. It is a convex function, which means that line joining any given 2 points on this
 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/MSE.png'>
 </p>
 
-* MSE cost function for the Linear Regression model is a convex function, which means that for any 2 points
+
 
 ## Hypothesis
 1. There exists a linear relationship between target and feature variables. This can be verified using scatterplots.
