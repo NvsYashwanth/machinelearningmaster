@@ -67,12 +67,13 @@
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/MSE.png'>
 </p>
 
-* 
+* It is important to note that feature scaling plays a huge role in the shape of the cost function defined. As you can see, on the left the Gradient Descent algorithm goes straight toward the minimum, thereby reaching it quickly, whereas on the right it first goes in a direction almost orthogonal to the direction of the global minimum. It will eventually reach the minimum, but it will take a long time to converge.
+
 <p align='center'>
   <img src=''>
 </p>
 
-
+* When using Gradient Descent, you should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
 
 ## Hypothesis
 1. There exists a linear relationship between target and feature variables. This can be verified using scatterplots.
