@@ -46,12 +46,12 @@
 </p>
 
 * The algorithm calculates the gradient or partial derivatives of the cost function w.r.t every parameter. This new gradient tells us the slope of our cost function at our current position (current parameter values) and the direction we should move to update our parameters. The size of our update is controlled by the learning rate.
-* With a high learning rate we can cover more ground each step, but we risk overshooting the lowest point since the slope of the hill is constantly changing. 
+* With a high learning rate which means larger steps, we risk overshooting the global minimum since the slope of the hill is constantly changing. 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/lr%20large.png'>
 </p>
 
-* With a very low learning rate, we can confidently move in the direction of the negative gradient since we are recalculating it so frequently. A low learning rate is more precise, but calculating the gradient is time-consuming, so it will take us a very long time to get to the bottom.
+* With a very low learning rate, we can move in the direction of the negative gradient precisely, but calculating the gradient is time-consuming, so it will take us a very long time to converge (to reach at the bottom most point).
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/lr%20small.png'>
 </p>
@@ -67,13 +67,13 @@
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/MSE.png'>
 </p>
 
-* It is important to note that feature scaling plays a huge role in the shape of the cost function defined. As you can see, on the left the Gradient Descent algorithm goes straight toward the minimum, thereby reaching it quickly, whereas on the right it first goes in a direction almost orthogonal to the direction of the global minimum. It will eventually reach the minimum, but it will take a long time to converge.
+* It is important to note that feature scaling plays a huge role in the shape of the cost function defined. As you can see, on the left the Gradient Descent algorithm goes straight toward the minimum quickly, whereas on the right it first goes in a direction almost orthogonal to the direction of the global minimum. It will eventually reach the minimum, but it will take a long time to converge.
 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/mse%20fig.png'>
 </p>
 
-* When using Gradient Descent, you should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
+* When using Gradient Descent, one should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
 
 ## Hypothesis
 1. There exists a linear relationship between target and feature variables. This can be verified using scatterplots.
