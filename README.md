@@ -28,7 +28,7 @@
 `Complexity is : O(n**3)`
 
 ### Pseudoinverse
-* LinearRegression() of the scikit learn computes pseudoinverse using SVD (Singular Value Decomposition). This computationally efficient than Normal Equation especially when the matrix X is not invertible (singular).
+* LinearRegression() of the scikit learn computes pseudoinverse using SVD (Singular Value Decomposition). This is computationally efficient than Normal Equation especially when the matrix X is not invertible (singular).
 
 `Complexity is : O(n**2)`
 
