@@ -18,7 +18,7 @@
 </p>
 
 ## Training
-***For small number of features***
+### ***For small number of features***
 ### Normal Equation
 * Also regarded as the closed form.
 <p align='center'>
@@ -32,9 +32,10 @@
 
 `Complexity is : O(n**2)`
 
-***For large number of features ~100,000***
+
+### ***For large number of features ~100,000***
 ### Gradient descent
-+
+*
 
 ## Cost Function
 * We define the cost funciton MSE (Mean Square Error) that measures the average squared differnce between actual and predicted values. Our goal is to minimize this cost function in order to improve the accuracy of the model.
