@@ -6,7 +6,16 @@ Linear Regression is a supervised machine learning algorithm that predicts a con
   <img src="https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/simple%20regression.png">
 </p>
 
-* In a generalized manner, the model predictions are : 
+***The predictions can be modelled as*** :
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/general%20pred.png'>
+</p>
+
+***In vectorized form*** :
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/general%20vector%20pred.png'>
+</p>
+
 ### Cost Function
 * We define the cost funciton MSE (Mean Square Error) that measures the average squared differnce between actual and predicted values. Our goal is to minimize this cost function in order to improve the accuracy of the model.
 
