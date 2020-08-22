@@ -74,8 +74,3 @@
 </p>
 
 * When using Gradient Descent, one should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
-
-## Hypothesis
-1. There exists a linear relationship between target and feature variables. This can be verified using scatterplots.
-2. There is little or no multicollinearity between feature variables. The same can be checked using pariplot and heatmaps.
-3. Error terms are normally distributed. Perform residual analysis to verify the same.
