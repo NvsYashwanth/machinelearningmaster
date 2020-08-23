@@ -57,6 +57,9 @@
 </p>
 
 * As mentioned before our goal is to reach the global minimum. But at times when our cost function has irregular cruve, with random initialization in place, one might reach a local minimum, which is not as good as the global minimum. 
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/pitfalls%20descent.png'>
+</p>
 
 * One way to overcome this is by using the concept of [momentum](https://distill.pub/2017/momentum/).
 ## Cost Function
@@ -77,10 +80,10 @@
 
 
 ## Types Of Gradient Descnet
-* Before getting into further details let us define ***partial derivates***. 
-`In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivates.`
+* Before getting into further details let us define ***partial derivatives***. 
+`In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivatives.`
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/partial%20derivates.png'>
 </p>
 
 ### Batch Gradient Descent
