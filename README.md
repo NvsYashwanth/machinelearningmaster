@@ -101,6 +101,7 @@ plt.show()
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/sklearn%20linear%20reg.png'>
 </p>
 
+***`As you can see the result is same for both Normal Equation and Scikit-Learn SVD method.`**
 
 ### ***For large number of features ~100,000***
 ### Gradient Descent
