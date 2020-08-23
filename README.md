@@ -1,6 +1,6 @@
 # Regression Methods
 
-## `CONTRIBUTION GUIDELINES` :zap: :page_with_curl:
+## `CONTRIBUTION GUIDELINES` :page_with_curl:
 ### How to contribute? :eyes:
 1. Fork the repository
 2. Make the desired changes (add/delete/modify)
@@ -12,6 +12,9 @@
 3. If there is any concept with wrong explanation or mistakes.
 4. If any topic can be expanded further with more emphasis on maths.
 
+# Contents :zap:
+## 1. Linear Regression
+## 2. Polynomial Regression
 
 # ***1. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
