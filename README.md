@@ -33,6 +33,24 @@
 </p>
 
 ## Training
+Let us consider the follow set of data points :
+```
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+X = 2 * np.random.rand(100, 1)
+y = -1 + 2 * X + np.random.randn(100, 1)
+plt.subplot(111)
+plt.scatter(X,y)
+plt.title('Data Points')
+plt.legend(['Random Data']) 
+plt.show()
+```
+<p align='center'>
+  <img src=''>
+</p>
+
+
 ### ***For small number of features***
 ### Normal Equation
 * Also regarded as the closed form.
@@ -42,31 +60,45 @@
 
 `Complexity is : O(n**3)`
 
+```
+X_b=np.c_[np.ones((100, 1)),X]
+thetas=np.linalg.inv(X_b.T.dot(X_b)).dot(X_b.T).dot(y)
+X_new=np.array([[0],[2]])
+X_new_b=np.c_[np.ones((2, 1)),X_new]
+y_pred_normaleq=X_new_b.dot(thetas)
+plt.subplot(111)
+plt.scatter(X,y,color='orange')
+plt.plot(X_new,y_pred_normaleq,'r-')
+plt.title('Normal Equation Fit')
+plt.legend(['Best Fit Line'])
+print(f"Normal Equation ---> Intercept : {thetas[0]} and Coefficient : {thetas[1]}\n\n")
+plt.show()
+```
+<p align='center'>
+  <img src=''>
+</p>
+
+
 ### Pseudoinverse
 * LinearRegression() of the scikit learn computes pseudoinverse using `SVD (Singular Value Decomposition)`. This is computationally efficient than Normal Equation especially when the matrix X is not invertible (singular).
 
 `Complexity is : O(n**2)`
 
 ```
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-X = 2 * np.random.rand(100, 1)
-y = -1 + 2 * X + np.random.randn(100, 1)
 from sklearn.linear_model import LinearRegression
 regressor=LinearRegression()
 regressor.fit(X,y)
-y_pred=regressor.predict(X)
+y_pred_skl=regressor.predict(X)
 plt.subplot(111)
 plt.scatter(X,y)
-plt.plot(X,y_pred,'r-')
+plt.plot(X,y_pred_skl,'r-')
 plt.title('Scikit Learn : Linear Regression')
 plt.legend(['Best Fit Line'])
-print(f"Intercept : {regressor.intercept_} and Coefficient : {regressor.coef_}\n\n")
+print(f"Scikit Learn Linear Regression ---> Intercept : {regressor.intercept_} and Coefficient : {regressor.coef_}\n\n")
 plt.show()
 ```
 <p align='center'>
-  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/sklearn%20linear%20regression.png'>
+  <img src=''>
 </p>
 
 
