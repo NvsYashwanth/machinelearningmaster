@@ -83,9 +83,82 @@
 * Before getting into further details let us define ***partial derivatives***. 
 
 `In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivatives.`
+
+
+### Batch Gradient Descent
+* Batch Gradient Descent uses whole batch of training data at every step of training step. Thus it is very slow for larger datasets.
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/partial%20derivates.png'>
 </p>
 
-### Batch Gradient Descent
-* Batch Gradient Descent uses whole batch of training data at every step of training step. Thus it is very slow for larger datasets.
+The above given method of computation is slow. Thus we can consider the vectorized form as follows :
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/gradient%20vector.png'>
+</p>
+
+Upon finding the gradient, we can subtract the same to go in the negative direction and eventually reach downhill. The amount by which the same changes is defined by the learning rate ( Refer the section on gradient descent intro to understand learning rate )
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/learning%20step.png'>
+</p>
+
+In order to understand the same let us look at the following example :
+```
+import seaborn as sns
+import matplotlib.pyplot as plt
+X = 2 * np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.randn(100, 1)
+
+# Defining a list of tuples of learning rates and subplots
+lr = [(0.05,131),(0.5,132),(1,133)]
+
+# number  of iterations
+epochs = 100
+
+# Training examples
+m = 100
+
+# Parameters 
+# Considering simple regression
+theta = np.random.randn(2,1) # random initialization
+
+# 50 data points
+X_b = np.c_[np.ones((100, 1)), X] 
+
+# Taking 2 points (extremes) to form our regression line 
+X_new = np.array([[0], [2]])
+
+# Adding a constant to each since theta(0) is 1.
+X_new_b = np.c_[np.ones((2, 1)), X_new] # add x0 = 1 to each instance
+
+
+# The main loop
+for lr in lr:
+    for iteration in range(epochs):
+        gradients = 2/m * X_b.T.dot(X_b.dot(theta) - y)
+        theta = theta - lr[0] * gradients
+        y_predict = X_new_b.dot(theta)
+        plt.figure(1,figsize=(15,5))
+        plt.subplot(lr[1])
+        plt.plot(X_new, y_predict, "r")
+        plt.plot(X, y, "b.")
+        plt.ylim((0,14))
+        plt.title(f"Learning Rate : {lr[0]}")
+
+```
+The output of the above code : 
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/code%20example%20lrs.png'>
+</p>
+
+In order to find an appropriate learning rate, one can use something like [grid search](https://scikit-learn.org/stable/modules/grid_search.html).
+
+### Stochastic Gradient Descent
+* Batch Gradient descent uses whole batch of training set in every iteration of training. This is computationally expensive.
+* Stochastic Gradient Descent (here stochastic means random), takes only a single instance randomly and uses the same to in every iteration to train. This is much faster, but irregular patterns are observed due to the randomness.
+* This randomness is however at times helpful if the cost function is irregular. Because it can jump out of the local minimas with a better chance of finding global minimum than in Batch Gradient Descent.
+* We can use a learning rate scheduler set to a inital high value and then gradually decrease our learning rate over time so that we dont end up bouncing off from minimum. If the learning rate is reduced too quickly, you may get stuck in a local minimum, or even end up frozen halfway to the minimum. If the learning rate is reduced too slowly, you may jump around the minimum for a long time and end up with a suboptimal solution if you halt training too early.
+* One can use scikit learns SGDRegressor class to implement this.
+* An important thing to note is we must ensure our training data is shuffled at the begining of each epoch so the parameters get pulled toward the global optimum, on average. If data is not shuffled, the SGD will not settle close to the global minimum, but instead will optimize label by label.
+
+### Mini-batch Gradient Descnet
+* Mini-batch Gradient Descnet computes the gradients on small random sets of instances called mini-batches. There is a better chance we can a bit closer to the minimum than Stochastic Gradient Descent but it may be harder for it to escape from local minima.
