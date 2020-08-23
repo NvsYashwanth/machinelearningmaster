@@ -165,7 +165,7 @@ X_b = np.c_[np.ones((100, 1)), X]
 # Taking 2 points (extremes) to form our regression line 
 X_new = np.array([[0], [2]])
 
-# Adding a constant to each since theta(0) is 1.
+# Adding a constant to each since X(0) is 1.
 X_new_b = np.c_[np.ones((2, 1)), X_new] # add x0 = 1 to each instance
 
 
