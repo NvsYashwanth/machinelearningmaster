@@ -151,3 +151,14 @@ The output of the above code :
 </p>
 
 In order to find an appropriate learning rate, one can use something like [grid search](https://scikit-learn.org/stable/modules/grid_search.html).
+
+### Stochastic Gradient Descent
+* Batch Gradient descent uses whole batch of training set in every iteration of training. This is computationally expensive.
+* Stochastic Gradient Descent (here stochastic means random), takes only a single instance randomly and uses the same to in every iteration to train. This is much faster, but irregular patterns are observed due to the randomness.
+* This randomness is however at times helpful if the cost function is irregular. Because it can jump out of the local minimas with a better chance of finding global minimum than in Batch Gradient Descent.
+* We can use a learning rate scheduler set to a inital high value and then gradually decrease our learning rate over time so that we dont end up bouncing off from minimum. If the learning rate is reduced too quickly, you may get stuck in a local minimum, or even end up frozen halfway to the minimum. If the learning rate is reduced too slowly, you may jump around the minimum for a long time and end up with a suboptimal solution if you halt training too early.
+* One can use scikit learns SGDRegressor class to implement this.
+* An important thing to note is we must ensure our training data is shuffled at the begining of each epoch so the parameters get pulled toward the global optimum, on average. If data is not shuffled, the SGD will not settle close to the global minimum, but instead will optimize label by label.
+
+### Mini-batch Gradient Descnet
+* Mini-batch Gradient Descnet computes the gradients on small random sets of instances called mini-batches. There is a better chance we can a bit closer to the minimum than Stochastic Gradient Descent but it may be harder for it to escape from local minima.
