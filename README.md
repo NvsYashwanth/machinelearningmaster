@@ -239,3 +239,5 @@ In order to find an appropriate learning rate, one can use something like [grid 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/grad%20algos.png'>
 </p>
+
+# ***2. Polynomial Regression***
