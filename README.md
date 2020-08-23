@@ -81,6 +81,7 @@
 
 ## Types Of Gradient Descnet
 * Before getting into further details let us define ***partial derivatives***. 
+
 `In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivatives.`
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/partial%20derivates.png'>
