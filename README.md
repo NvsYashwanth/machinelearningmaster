@@ -138,7 +138,7 @@ plt.show()
 * For the Linear Regression model, we define the cost funciton MSE (Mean Square Error) that measures the average squared differnce between actual and predicted values. Our goal is to minimize this cost function in order to improve the accuracy of the model. It is a convex function, which means that line joining any given 2 points on this never has a local minimum. Only a global minimum.
 
 <p align='center'>
-  <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/MSE.png'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/MSE%20equation.png'>
 </p>
 
 * It is important to note that feature scaling plays a huge role in the shape of the cost function defined. As you can see, on the left the Gradient Descent algorithm goes straight toward the minimum quickly, whereas on the right it first goes in a direction almost orthogonal to the direction of the global minimum. It will eventually reach the minimum, but it will take a long time to converge.
