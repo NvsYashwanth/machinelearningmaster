@@ -47,6 +47,29 @@
 
 `Complexity is : O(n**2)`
 
+```
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+X = 2 * np.random.rand(100, 1)
+y = -1 + 2 * X + np.random.randn(100, 1)
+from sklearn.linear_model import LinearRegression
+regressor=LinearRegression()
+regressor.fit(X,y)
+y_pred=regressor.predict(X)
+plt.subplot(111)
+plt.scatter(X,y)
+plt.plot(X,y_pred,'r-')
+plt.title('Scikit Learn : Linear Regression')
+plt.legend(['Best Fit Line'])
+print(f"Intercept : {regressor.intercept_} and Coefficient : {regressor.coef_}\n\n")
+plt.show()
+```
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/sklearn%20linear%20regression.png'>
+</p>
+
+
 ### ***For large number of features ~100,000***
 ### Gradient Descent
 * Gradient descent is an optimization algorithm used to minimize some function (here in our case cost function that describes error) iteratively by moving in the negative direction of the gradient. 
