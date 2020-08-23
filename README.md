@@ -47,7 +47,7 @@ plt.legend(['Random Data'])
 plt.show()
 ```
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/data%20points%20linear%20reg%20example.png'>
 </p>
 
 
@@ -75,7 +75,7 @@ print(f"Normal Equation ---> Intercept : {thetas[0]} and Coefficient : {thetas[1
 plt.show()
 ```
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/normal%20eq%20fit.png'>
 </p>
 
 
@@ -98,7 +98,7 @@ print(f"Scikit Learn Linear Regression ---> Intercept : {regressor.intercept_} a
 plt.show()
 ```
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/sklearn%20linear%20reg.png'>
 </p>
 
 
