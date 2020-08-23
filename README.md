@@ -235,6 +235,7 @@ In order to find an appropriate learning rate, one can use something like [grid 
 * Mini-batch Gradient Descnet computes the gradients on small random sets of instances called mini-batches. There is a better chance we can a bit closer to the minimum than Stochastic Gradient Descent but it may be harder for it to escape from local minima.
 
 ***Comparision between Batch, Stochastic and Mini-Batch***
+* Though Batch GD is computationally slow its path actually stops at the minimum, while both Stochastic GD and Mini-batch GD bounce but would also reach the minimum if you used a good learning schedule. However, don’t forget that Batch
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/grad%20algos.png'>
 </p>
