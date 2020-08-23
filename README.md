@@ -12,9 +12,6 @@
 3. If there is any concept with wrong explanation or mistakes.
 4. If any topic can be expanded further with more emphasis on maths.
 
-# Contents :zap:
-## 1. Linear Regression
-## 2. Polynomial Regression
 
 # ***1. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
