@@ -245,3 +245,10 @@ In order to find an appropriate learning rate, one can use something like [grid 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/poly%20reg.png'>
 </p>
+
+* If non-linearity is present in our data, then we can opt Polynomial Regression.
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/simple%20vs%20poly%20reg.png'>
+</p>
+
+* The Simple and Multiple Linear equations are also Polynomial equations with a single degree, and the Polynomial regression equation is Linear equation with the nth degree.
