@@ -241,3 +241,7 @@ In order to find an appropriate learning rate, one can use something like [grid 
 </p>
 
 # ***2. Polynomial Regression***
+* Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below:
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/poly%20reg.png'>
+</p>
