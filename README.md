@@ -153,13 +153,13 @@ The output of the above code :
 * When using Gradient Descent, one should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
 
 
-## Types Of Gradient Descnet
+# ***2. Types Of Gradient Descnet***
 * Before getting into further details let us define ***partial derivatives***. 
 
 `In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivatives.`
 
 
-### Batch Gradient Descent
+## Batch Gradient Descent
 * Batch Gradient Descent uses whole batch of training data at every step of training step. Thus it is very slow for larger datasets.
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/partial%20derivates.png'>
@@ -226,7 +226,7 @@ The output of the above code :
 
 In order to find an appropriate learning rate, one can use something like [grid search](https://scikit-learn.org/stable/modules/grid_search.html).
 
-### Stochastic Gradient Descent
+## Stochastic Gradient Descent
 * Batch Gradient descent uses whole batch of training set in every iteration of training. This is computationally expensive.
 * Stochastic Gradient Descent (here stochastic means random), takes only a single instance randomly and uses the same to in every iteration to train. This is much faster, but irregular patterns are observed due to the randomness.
 * This randomness is however at times helpful if the cost function is irregular. Because it can jump out of the local minimas with a better chance of finding global minimum than in Batch Gradient Descent.
@@ -234,7 +234,7 @@ In order to find an appropriate learning rate, one can use something like [grid 
 * One can use scikit learns SGDRegressor class to implement this.
 * An important thing to note is we must ensure our training data is shuffled at the begining of each epoch so the parameters get pulled toward the global optimum, on average. If data is not shuffled, the SGD will not settle close to the global minimum, but instead will optimize label by label.
 
-### Mini-batch Gradient Descnet
+## Mini-batch Gradient Descnet
 * Mini-batch Gradient Descnet computes the gradients on small random sets of instances called mini-batches. There is a better chance we can a bit closer to the minimum than Stochastic Gradient Descent but it may be harder for it to escape from local minima.
 
 ***Comparision between Batch, Stochastic and Mini-Batch***
@@ -243,7 +243,7 @@ In order to find an appropriate learning rate, one can use something like [grid 
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/grad%20algos.png'>
 </p>
 
-# ***2. Polynomial Regression***
+# ***3. Polynomial Regression***
 * Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below:
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/poly%20reg.png'>
@@ -257,7 +257,7 @@ In order to find an appropriate learning rate, one can use something like [grid 
 * The Simple and Multiple Linear equations are also Polynomial equations with a single degree, and the Polynomial regression equation is Linear equation with the nth degree.
 ---
 
-# ***3. Learning Curves***
+# ***4. Learning Curves***
 * If a model performs well on the training data but generalizes poorly, then your model is overfitting. If it performs poorly on both, then it is underfitting. This is one way to tell when a model is too simple or too complex.
 * Another way to tell is to look at the learning curves: these are plots of the model’s performance on the training set and the validation set as a function of the training set
 size (or the training iteration).
@@ -308,4 +308,4 @@ The output of the above code :
 * As the number of instances over which the model is being trained increases, the validation loss decreases meaning it starts generalizing better than before. However the training loss reaches a plateau after which adding new instances to the training set doesn’t make the average error much better or worse. 
 
 
-# ***4. Regularization Models***
+# ***5. Regularization Models***
