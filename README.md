@@ -27,7 +27,7 @@
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#batch-gradient-descent'>Batch Gradient Descent</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#stochastic-gradient-descent'>Stochastic Gradient Descent</a></li>
-   <li><a href='https://github.com/NvsYashwanth/Regression-Master#mini-batch-gradient-descent'>Mini-Batch Gradient Descent</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#mini-batch-gradient-descnet'>Mini-Batch Gradient Descent</a></li>
   </ul>
  </li>
  
