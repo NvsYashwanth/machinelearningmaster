@@ -1,18 +1,34 @@
 # Regression Methods
 
-## `CONTRIBUTION GUIDELINES` :page_with_curl:
-### How to contribute? :eyes:
+# `CONTRIBUTION GUIDELINES` :page_with_curl:
+## How to contribute? :eyes:
 1. Fork the repository
 2. Make the desired changes (add/delete/modify)
 3. Make a pull request
 
-### When to contribute? :eyes:
+## When to contribute? :eyes:
 1. If there is any gramatical error in README files.
 2. If you have a better explanation.
 3. If there is any concept with wrong explanation or mistakes.
 4. If any topic can be expanded further with more emphasis on maths.
 
+# ***Contents*** :zap:
+1. Linear Regression
+  * Prediciton Model
+  * Training 
+  * Cost Function
+  
+2. Types Of Gradient Descent
+  * Batch Gradient Descent
+  * Stochastic Gradient Descent
+  * Mini-Batch Gradient Descent
+  
+3. Polynomial Regression
 
+4. Learning curves
+
+5. Regularization Models
+---
 # ***1. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
 
