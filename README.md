@@ -13,21 +13,34 @@
 4. If any topic can be expanded further with more emphasis on maths.
 
 # ***Contents*** :zap:
-1. Linear Regression
-  * Prediciton Model
-  * Training 
-  * Cost Function
-  
-2. Types Of Gradient Descent
-  * Batch Gradient Descent
-  * Stochastic Gradient Descent
-  * Mini-Batch Gradient Descent
-  
-3. Polynomial Regression
+<ol>
+ 
+ <li>Linear Regression
+  <ul>
+   <li>Prediciton Model</li>
+   <li>Training</li>
+   <li>Cost Function</li>
+  </ul>
+ </li>
+ 
+  <li>Types Of Gradient Descent
+  <ul>
+   <li>Batch Gradient Descent</li>
+   <li>Stochastic Gradient Descent</li>
+   <li>Mini-Batch Gradient Descent</li>
+  </ul>
+ </li>
+ 
+ <li>Polynomial Regression
+ </li>
+ 
+ <li>Learning curves
+ </li>
+ 
+ <li>Regularization Models
+ </li>
+</ol>
 
-4. Learning curves
-
-5. Regularization Models
 ---
 # ***1. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
