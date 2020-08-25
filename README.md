@@ -46,6 +46,7 @@ plt.title('Data Points')
 plt.legend(['Random Data']) 
 plt.show()
 ```
+The output of the above code : 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/data%20points%20linear%20reg%20example.png'>
 </p>
@@ -74,6 +75,7 @@ plt.legend(['Best Fit Line'])
 print(f"Normal Equation ---> Intercept : {thetas[0]} and Coefficient : {thetas[1]}\n\n")
 plt.show()
 ```
+The output of the above code : 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/normal%20eq%20fit.png'>
 </p>
@@ -97,6 +99,7 @@ plt.legend(['Best Fit Line'])
 print(f"Scikit Learn Linear Regression ---> Intercept : {regressor.intercept_} and Coefficient : {regressor.coef_}\n\n")
 plt.show()
 ```
+The output of the above code : 
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/sklearn%20linear%20reg.png'>
 </p>
@@ -252,3 +255,54 @@ In order to find an appropriate learning rate, one can use something like [grid 
 </p>
 
 * The Simple and Multiple Linear equations are also Polynomial equations with a single degree, and the Polynomial regression equation is Linear equation with the nth degree.
+---
+
+# ***3. Learning Curves***
+* If a model performs well on the training data but generalizes poorly, then your model is overfitting. If it performs poorly on both, then it is underfitting. This is one way to tell when a model is too simple or too complex.
+* Another way to tell is to look at the learning curves: these are plots of the model’s performance on the training set and the validation set as a function of the training set
+size (or the training iteration).
+```
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error as mse
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+X = 2 * np.random.rand(100, 1)
+y = -2 +  3* X + np.random.randn(100, 1)
+X_train,X_val,y_train,y_val=train_test_split(X,y,test_size=0.2)
+regressor=LinearRegression()
+regressor.fit(X_train,y_train)
+predictions=regressor.predict(X_val)
+
+plt.figure(1,figsize=(15,5))
+plt.subplot(121)
+plt.scatter(X,y)
+plt.plot(X_val,predictions,color='black')
+plt.title('Scikit Learn Linear Regression')
+
+train_errors=[]
+val_errors=[]
+plt.subplot(122)
+for i in range(1,len(X_train)):
+    regressor.fit(X_train[:i],y_train[:i])
+    train_preds=regressor.predict(X_train[:i])
+    val_preds=regressor.predict(X_val)
+    train_errors.append(mse(train_preds,y_train[:i]))
+    val_errors.append(mse(val_preds,y_val))
+plt.plot(range(1,len(X_train)),np.sqrt(train_errors),label='Train Loss')
+plt.plot(range(1,len(X_train)),np.sqrt(val_errors),label='Validation Loss')
+plt.title('learning Curves')
+plt.xlabel('Train set size')
+plt.ylabel('RMSE')
+plt.legend()
+plt.show()
+```
+The output of the above code : 
+<p align='center'>
+  <img src=''>
+</p>
+
+* When the model is trained for 1 or 2 instances and the same when used for predicting training set gives higher accuracy that is with lower loss but higher validation loss. This is because the model is overfitting the training data and can not generalize in case of validation set. 
+* As the number of instances over which the model is being trained increases, the validation loss decreases meaning it starts generalizing better than before. However the training loss reaches a plateau after which adding new instances to the training set doesn’t make the average error much better or worse. 
