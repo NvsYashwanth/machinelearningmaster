@@ -15,29 +15,29 @@
 # ***Contents*** :zap:
 <ol>
  
- <li>Linear Regression
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master/blob/master/README.md#1-linear-regression'>Linear Regression</a>
   <ul>
-   <li>Prediciton Model</li>
-   <li>Training</li>
-   <li>Cost Function</li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#prediction-model'>Prediciton Model</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#training'>Training</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#cost-function'>Cost Function</a></li>
   </ul>
  </li>
  
-  <li>Types Of Gradient Descent
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#2-types-of-gradient-descnet'>Types Of Gradient Descent</a>
   <ul>
-   <li>Batch Gradient Descent</li>
-   <li>Stochastic Gradient Descent</li>
-   <li>Mini-Batch Gradient Descent</li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#batch-gradient-descent'>Batch Gradient Descent</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#stochastic-gradient-descent'>Stochastic Gradient Descent</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#mini-batch-gradient-descent'>Mini-Batch Gradient Descent</a></li>
   </ul>
  </li>
  
- <li>Polynomial Regression
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#3-polynomial-regression'>Polynomial Regression</a>
  </li>
  
- <li>Learning curves
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#4-learning-curves'>Learning curves</a>
  </li>
  
- <li>Regularization Models
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-regularization-models'>Regularization Models</a>
  </li>
 </ol>
 
