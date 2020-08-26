@@ -348,7 +348,7 @@ The output of the above code :
 
 * Regularization basically adds the penalty as model complexity increases. A smiple way to regularize a model is to decrease the number of polynomial dregrees.
 * Regularization will add the penalty for higher terms through a regularization parameter lambda. This will decrease the importance given to higher terms thereby decereasing model complexity.
-
+* It is important to scale the data (e.g., using a StandardScaler) before performing Regularization
 * To simply we must define Parsimonious Models. These are models that explain data with a minimum number of parameters, or predictor variables. Thus Regularization means creating a parsimonious model. 
 * We will go over three regualarization models which are used to constrain parameters of a linear model.
 <p align='center'>
@@ -358,4 +358,41 @@ The output of the above code :
 ## Ridge Regression
 * It is also known as Tikhonov regularization.
 * Ridge Regression is a L2 regularization technique. In regularization, we reduce the magnitude of the coefficients. Since Ridge Regression shrinks or reduces the number of parameters, it is mostly used to prevent multicollinearity as well as the model complexity.
-*
+* Ridge Regression adds squared magnitude of coefficients as the penalty term to the cost function. Take a look at the equation given below.
+<p align='center'>
+  <img src=''>
+</p>
+
+* If lambda=0, we have vanilla linear regression. If lambda has a large value, weights become zero hence it will under-fit.
+* If look at the equation closely, the bias term is not regularized (the sum starts at j = 1, not 0).
+* we can perform Ridge Regression either by computing a closed-form equation or by performing Gradient Descent. 
+
+### Using closed form
+<p align='center'>
+  <img src=''>
+</p>
+
+* In the above equation, A is an is (n + 1) × (n + 1) identity matrix except with a 0 in the top-left cell, corresponding to the bias term.
+
+The same can be achieved with ***scikit-learn*** as follows :
+```
+```
+* In thr code above, penalty represents the regularization method. L2 means Ridge Regression.
+
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
+
+
+### Using Gradient Descent
+* The following uses ***scikit-learn***
+```
+```
+
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
+
+## Lasso Regression
