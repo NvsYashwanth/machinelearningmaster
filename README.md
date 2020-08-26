@@ -21,11 +21,11 @@ This is an on-going project.`
 
 # ***Contents*** :zap:
 <ol>
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#what-is-machine-learning?'>What is Machine Learning?</a>
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#applications-of-machine-learning'>Applications of Machine Learning</a>
-  <li><a href='https://github.com/NvsYashwanth/Regression-Master#types-of-machine-learning'>Types of Machine Learning</a>
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#1-what-is-machine-learning'>What is Machine Learning?</a>
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-applications-of-machine-learning'>Applications of Machine Learning</a>
+  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-types-of-machine-learning'>Types of Machine Learning</a>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master/blob/master/README.md#4-linear-regression'>Linear Regression</a>
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-linear-regression'>Linear Regression</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#prediction-model'>Prediciton Model</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#assumptions-of-linear-regression-models'>Assumptions of Linear Regression Models</a></li>
