@@ -40,7 +40,7 @@
  
   <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-bias-and-variance'>Bias and Variance</a>
  <ul>
-   <li><a href='https://github.com/NvsYashwanth/Regression-Master#so-what-is-bias-and-variance-exactly-?'>Bias-Variance Trade-off</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#bias-variance-trade-off'>Bias-Variance Trade-off</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#model-fitting'>Model Fitting</a></li>
  </ul>
  </li>
