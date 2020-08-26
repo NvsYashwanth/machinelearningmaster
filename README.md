@@ -373,7 +373,7 @@ The output of the above code :
 
 * If lambda=0, we have vanilla linear regression. If lambda has a large value, weights become zero hence it will under-fit.
 * If look at the equation closely, the bias term is not regularized (the sum starts at j = 1, not 0).
-* we can perform Ridge Regression either by computing a closed-form equation or by performing Gradient Descent. 
+* We can perform Ridge Regression either by computing a closed-form equation or by performing Gradient Descent. 
 
 ### Using closed form
 <p align='center'>
@@ -402,7 +402,7 @@ The output of the above code:
   <img src=''>
 </p>
 
-### Various levels of Ridge regularization
+### Various levels of Ridge Regression
 ```
 ```
 The output of the above code:
@@ -411,3 +411,29 @@ The output of the above code:
 </p>
 
 ## Lasso Regression
+* Lasso Regression stands for Least Absolute Shrinkage and Selection Operator Regression.
+* Lasso Regression is a L1 regularization technique. An important characteristic of Lasso Regression is that it tends to eliminate the weights of the least important features (i.e., set them to zero). v
+* Lasso Regression adds absolute value of magnitude of coefficients as the penalty term to the cost function. Take a look at the equation given below.
+<p align='center'>
+  <img src=''>
+</p>
+
+* If lambda=0, we have vanilla linear regression. For large values, coefficients approach towards zero, but even at smaller values, our coefficients are reduce to absolute zeroes. Therefore, lasso selects the only some feature while reduces the coefficients of others to zero. This property is known as feature selection and which is absent in case of ridge.
+* Thus Lasso Regression automatically performs feature selection and outputs a sparse model.
+
+### Using Gradient Descent
+* The following uses ***scikit-learn***
+```
+```
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
+
+### Various levels of Lasso Regression
+```
+```
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
