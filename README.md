@@ -381,13 +381,13 @@ The output of the above code :
 ## So what is bias and variance exactly?
 * Let's look at the image below to understand.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/bias%20variance%20targets.png'>
 </p>
 
 * Let’s say we have model which is very accurate, therefore the error of our model will be low, meaning a low bias and low variance as shown in first figure. All the data points fit within the bulls-eye. Similarly we can say that if the variance increases, the spread of our data point increases which results in less accurate prediction. And as the bias increases the error between our predicted value and the observed values increases.
 
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/complexity%20model.png'>
 </p>
 
 * As we add more and more parameters to our model, its complexity increases, which results in increasing variance and decreasing bias, i.e., overfitting. So we need to find out one optimum point in our model where the decrease in bias is equal to increase in variance. In practice, there is no analytical way to find this point. So how to deal with high variance or high bias?
@@ -396,12 +396,12 @@ The output of the above code :
 ### Why not use use higher order polynomials always?
 * Sadly, no. Basically, we have created a model that fits our training data well but fails to estimate the real relationship among variables beyond the training set. Therefore our model performs poorly on the test data. This problem is called as over-fitting. We also say that the model has high variance and low bias.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/fitting.png'>
 </p>
 
 * Similarly, we have another problem called underfitting, it occurs when our model neither fits the training data nor generalizes on the new data. Our model is underfit when we have high bias and low variance.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/fit%20and%20bias%20and%20variance.png'>
 </p>
 
 ###  Overcome Overfitting for a regression model?
