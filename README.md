@@ -284,6 +284,14 @@ In order to find an appropriate learning rate, one can use something like [grid 
 </p>
 
 * The Simple and Multiple Linear equations are also Polynomial equations with a single degree, and the Polynomial regression equation is Linear equation with the nth degree.
+```
+```
+
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
+
 ---
 
 # ***4. Learning Curves***
@@ -377,7 +385,7 @@ The output of the above code :
 The same can be achieved with ***scikit-learn*** as follows :
 ```
 ```
-* In thr code above, penalty represents the regularization method. L2 means Ridge Regression.
+* In the code above, penalty represents the regularization method. L2 means Ridge Regression.
 
 The output of the above code:
 <p align='center'>
