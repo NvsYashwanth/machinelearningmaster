@@ -341,11 +341,13 @@ The output of the above code :
 * Overfitting happens when model learns signal as well as noise in the training data and wouldn’t perform well on new data on which model wasn’t trained on.
 * Few ways you can avoid overfitting is by cross-validation sampling, reducing number of features, pruning, regularization etc.
 * Regularization is a good way to avoid overfitting and we shall discuss the same. 
-* Regularization basically adds the penalty as model complexity increases. A smiple way to regularize a model is to decrease the number of polynomial dregrees.
-* Regularization will add the penalty for higher terms through a regularization parameter lambda. This will decrease the importance given to higher terms thereby decereasing model complexity.
+* Take a look at the equation below.
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/regularization%20intro.png'>
 </p>
+
+* Regularization basically adds the penalty as model complexity increases. A smiple way to regularize a model is to decrease the number of polynomial dregrees.
+* Regularization will add the penalty for higher terms through a regularization parameter lambda. This will decrease the importance given to higher terms thereby decereasing model complexity.
 
 * To simply we must define Parsimonious Models. These are models that explain data with a minimum number of parameters, or predictor variables. Thus Regularization means creating a parsimonious model. 
 * We will go over three regualarization models which are used to constrain parameters of a linear model.
