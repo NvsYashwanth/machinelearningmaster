@@ -7,7 +7,7 @@
 Every topic will be explained with code examples in ipynb notebooks on multiple datasets.
 This is an on-going project.`
 
-# Repository Maintainers:
+# Repository Maintainers: :two_men_holding_hands:
 1. [NVS Yashwanth](https://github.com/NvsYashwanth)
 2. [Nikil Alakunta](https://github.com/Nikil99)
 
