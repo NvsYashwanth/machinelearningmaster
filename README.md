@@ -1,7 +1,9 @@
 # Regression Methods
-This repo hosts everything one needs to know about Regression Analysis.
+`This repo hosts everything one needs to know about Machine Learning.
+Every topic will be explained with code examples in ipynb notebooks.
+This is an on-going project.`
 
-# `CONTRIBUTION GUIDELINES` :page_with_curl:
+# CONTRIBUTION GUIDELINES :page_with_curl:
 ## How to contribute? :eyes:
 1. Fork the repository
 2. Make the desired changes (add/delete/modify)
