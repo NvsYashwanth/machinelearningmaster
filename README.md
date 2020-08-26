@@ -394,7 +394,7 @@ The output of the above code:
 
 
 ### Using Gradient Descent
-* The following uses ***scikit-learn***
+* The following uses ***scikit-learn*** :
 ```
 ```
 The output of the above code:
@@ -420,6 +420,16 @@ The output of the above code:
 
 * If lambda=0, we have vanilla linear regression. For large values, coefficients approach towards zero, but even at smaller values, our coefficients are reduce to absolute zeroes. Therefore, lasso selects the only some feature while reduces the coefficients of others to zero. This property is known as feature selection and which is absent in case of ridge.
 * Thus Lasso Regression automatically performs feature selection and outputs a sparse model.
+
+
+### Using closed form
+The same can be achieved with ***scikit-learn*** as follows :
+```
+```
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
 
 ### Using Gradient Descent
 * The following uses ***scikit-learn***
