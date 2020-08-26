@@ -415,7 +415,7 @@ The output of the above code:
 * Lasso Regression is a L1 regularization technique. An important characteristic of Lasso Regression is that it tends to eliminate the weights of the least important features (i.e., set them to zero). v
 * Lasso Regression adds absolute value of magnitude of coefficients as the penalty term to the cost function. Take a look at the equation given below.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/lasso%20reg%20eq.png'>
 </p>
 
 * If lambda=0, we have vanilla linear regression. For large values, coefficients approach towards zero, but even at smaller values, our coefficients are reduce to absolute zeroes. Therefore, lasso selects the only some feature while reduces the coefficients of others to zero. This property is known as feature selection and which is absent in case of ridge.
