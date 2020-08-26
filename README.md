@@ -341,7 +341,7 @@ The output of the above code :
 * Overfitting happens when model learns signal as well as noise in the training data and wouldn’t perform well on new data on which model wasn’t trained on.
 * Few ways you can avoid overfitting is by cross-validation sampling, reducing number of features, pruning, regularization etc.
 * Regularization is a good way to avoid overfitting and we shall discuss the same. 
-* Take a look at the equation below.
+* So how do we perform regularization? Well we add a regularization term to our cost function. Take a look at the equation given below.
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/regularization%20intro.png'>
 </p>
