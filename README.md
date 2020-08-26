@@ -241,12 +241,12 @@ The output of the above code :
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/partial%20derivates.png'>
 </p>
 
-The above given method of computation is slow. Thus we can consider the vectorized form as follows :
+* The above given method of computation is slow. Thus we can consider the vectorized form as follows :
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/gradient%20vector.png'>
 </p>
 
-Upon finding the gradient, we can subtract the same to go in the negative direction and eventually reach downhill. The amount by which the same changes is defined by the learning rate ( Refer the section on gradient descent intro to understand learning rate )
+* Upon finding the gradient, we can subtract the same to go in the negative direction and eventually reach downhill. The amount by which the same changes is defined by the learning rate ( Refer the section on gradient descent intro to understand learning rate )
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/learning%20step.png'>
 </p>
@@ -300,7 +300,7 @@ The output of the above code :
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/code%20example%20lrs.png'>
 </p>
 
-In order to find an appropriate learning rate, one can use something like [grid search](https://scikit-learn.org/stable/modules/grid_search.html).
+* In order to find an appropriate learning rate, one can use something like [grid search](https://scikit-learn.org/stable/modules/grid_search.html).
 
 ## Stochastic Gradient Descent
 * Batch Gradient descent uses whole batch of training set in every iteration of training. This is computationally expensive.
@@ -568,4 +568,4 @@ The output of the above code:
   <img src='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/early%20stopping.png'>
 </p>
 
-As we keep training, and plot prediction error (RMSE), the RMSE on the training set starts going down, along with its prediction error on the validation set. After a while the validation error starts to go back up. This indicates model is now overfitting the training data. With early stopping we stop our training when validation error reaches its minimum.
+* As we keep training, and plot prediction error (RMSE), the RMSE on the training set starts going down, along with its prediction error on the validation set. After a while the validation error starts to go back up. This indicates model is now overfitting the training data. With early stopping we stop our training when validation error reaches its minimum.
