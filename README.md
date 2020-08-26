@@ -1,4 +1,4 @@
-# Regression Methods
+# Deep dive into Machine Learning
 `This repo hosts everything one needs to know about Machine Learning.
 Every topic will be explained with code examples in ipynb notebooks.
 This is an on-going project.`
