@@ -37,13 +37,17 @@
  <li><a href='https://github.com/NvsYashwanth/Regression-Master#4-learning-curves'>Learning curves</a>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-regularization-models'>Regularization Models</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-bias-and-variance'>Bias and Variance</a>
+ </li>
+ 
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#6-regularization-models'>Regularization Models</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#ridge-regression'>Ridge Regression</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#lasso-regression'>Lasso Regression</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#elastic-net-regression'>Elastic Net Regression</a></li>
   </ul>
  </li>
+ 
 </ol>
 
 
@@ -349,8 +353,11 @@ The output of the above code :
 * When the model is trained for 1 or 2 instances and the same when used for predicting training set gives higher accuracy that is with lower loss but higher validation loss. This is because the model is overfitting the training data and can not generalize in case of validation set. 
 * As the number of instances over which the model is being trained increases, the validation loss decreases meaning it starts generalizing better than before. However the training loss reaches a plateau after which adding new instances to the training set doesn’t make the average error much better or worse. 
 
+# ***5. Bias and Variance***
 
-# ***5. Regularization Models***
+---
+
+# ***6. Regularization Models***
 * Overfitting happens when model learns signal as well as noise in the training data and wouldn’t perform well on new data on which model wasn’t trained on.
 * Few ways you can avoid overfitting is by cross-validation sampling, reducing number of features, pruning, regularization etc.
 * Regularization is a good way to avoid overfitting and we shall discuss the same. 
