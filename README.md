@@ -48,6 +48,9 @@
   </ul>
  </li>
  
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#7-early-stopping'>Early Stopping</a>
+ </li>
+ 
 </ol>
 
 
@@ -483,3 +486,6 @@ The output of the above code:
 <p align='center'>
   <img src=''>
 </p>
+
+# ***7. Early Stopping***
+---
