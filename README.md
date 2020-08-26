@@ -432,7 +432,7 @@ The output of the above code:
 </p>
 
 ### Using Gradient Descent
-* The following uses ***scikit-learn***
+* The following uses ***scikit-learn*** :
 ```
 ```
 The output of the above code:
@@ -441,6 +441,30 @@ The output of the above code:
 </p>
 
 ### Various levels of Lasso Regression
+```
+```
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
+
+## Elastic Net Regression
+* Elastic Net is a combination of Ridge and Lasso Regression. The regularization term is a mix of both Ridge and Lasso’s regularization terms. Take a look at the equation given below.
+<p align='center'>
+  <img src=''>
+</p>
+
+* From above we can see that when r = 0, Elastic Net is equivalent to Ridge Regression, and when r = 1, it is equivalent to Lasso Regression.
+
+* Elastic Net Regression using ***scikit-learn*** :
+```
+```
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
+
+### Various levels of Elastic Net Regression
 ```
 ```
 The output of the above code:
