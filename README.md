@@ -1,7 +1,11 @@
 # Deep dive into Machine Learning
 `This repo hosts everything one needs to know about Machine Learning.
-Every topic will be explained with code examples in ipynb notebooks.
+Every topic will be explained with code examples in ipynb notebooks on multiple datasets.
 This is an on-going project.`
+
+# Repository Maintainers:
+1. [NVS Yashwanth](https://github.com/NvsYashwanth)
+2. [Nikil Alakunta](https://github.com/Nikil99)
 
 # CONTRIBUTION GUIDELINES :page_with_curl:
 ## How to contribute? :eyes:
