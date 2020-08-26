@@ -41,7 +41,7 @@
  </li>
 </ol>
 
----
+
 # ***1. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
 
