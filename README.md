@@ -69,6 +69,18 @@ This is an on-going project.`
 </ol>
 
 
+# ***1. What is Machine Learning?***
+
+
+---
+# ***2. Applications of Machine Learning***
+
+
+---
+# ***3. Types of Machine Learning***
+
+
+---
 # ***4. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
 
