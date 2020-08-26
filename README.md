@@ -360,7 +360,7 @@ The output of the above code :
 * Ridge Regression is a L2 regularization technique. In regularization, we reduce the magnitude of the coefficients. Since Ridge Regression shrinks or reduces the number of parameters, it is mostly used to prevent multicollinearity as well as the model complexity.
 * Ridge Regression adds squared magnitude of coefficients as the penalty term to the cost function. Take a look at the equation given below.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/ridge%20reg%20eq.png'>
 </p>
 
 * If lambda=0, we have vanilla linear regression. If lambda has a large value, weights become zero hence it will under-fit.
@@ -369,7 +369,7 @@ The output of the above code :
 
 ### Using closed form
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/closed%20form%20ridge%20.png'>
 </p>
 
 * In the above equation, A is an is (n + 1) × (n + 1) identity matrix except with a 0 in the top-left cell, corresponding to the bias term.
