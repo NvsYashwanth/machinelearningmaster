@@ -17,8 +17,8 @@
  
  <li><a href='https://github.com/NvsYashwanth/Regression-Master/blob/master/README.md#1-linear-regression'>Linear Regression</a>
   <ul>
-   <li><a href='https://github.com/NvsYashwanth/Regression-Master#assumptions-of-linear-regression-models'>Assumptions of Linear Regression Models</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#prediction-model'>Prediciton Model</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#assumptions-of-linear-regression-models'>Assumptions of Linear Regression Models</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#training'>Training</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#cost-function'>Cost Function</a></li>
   </ul>
@@ -58,14 +58,6 @@
 # ***1. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
 
-## Assumptions of Linear Regression Models
-* The relationship between the two variables is linear.
-* All variables are multivariate normal.
-* There isn’t much multicollinearity among the dependent variables. A good way to test this is variance inflation.
-* There is little to no autocorrelation in the data. If you are unfamiliar with autocorrelation, autocorrelation occurs when the residuals of the variables in the model are not independent of each other.
-* There is homoscedasticity. That is, the size of the error does not vary by the sizes of the independent variables. The error does not increase substantially if your variables get larger or smaller.
-* The residuals of the linear regression should be normally distributed around a mean of 0.
-
 ## Prediction Model
 * We define the linear relationship for a given dependent variable `y` as ouput and the independent variable `x`as input. The model tries to fit a straight line by predicting the coefficients `m`(slope) and `b`(intercept or the bias term) where variables `m` and `b` are optimized to produce accurate predictions.
 <p align='center'>
@@ -81,6 +73,14 @@
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/general%20vector%20pred.png'>
 </p>
+
+## Assumptions of Linear Regression Models
+* The relationship between the two variables is linear.
+* All variables are multivariate normal.
+* There isn’t much multicollinearity among the dependent variables. A good way to test this is variance inflation.
+* There is little to no autocorrelation in the data. If you are unfamiliar with autocorrelation, autocorrelation occurs when the residuals of the variables in the model are not independent of each other.
+* There is homoscedasticity. That is, the size of the error does not vary by the sizes of the independent variables. The error does not increase substantially if your variables get larger or smaller.
+* The residuals of the linear regression should be normally distributed around a mean of 0.
 
 ## Training
 Let us consider the follow set of data points :
