@@ -449,7 +449,7 @@ The output of the above code:
 </p>
 
 ## Elastic Net Regression
-* Elastic Net is a combination of Ridge and Lasso Regression. The regularization term is a mix of both Ridge and Lasso’s regularization terms. Take a look at the equation given below.
+* Elastic Net is a combination of Ridge and Lasso Regression. The regularization term is a mix of both Ridge and Lasso’s regularization terms. Elastic regression generally works well when we have a big dataset. Take a look at the equation given below.
 <p align='center'>
   <img src=''>
 </p>
