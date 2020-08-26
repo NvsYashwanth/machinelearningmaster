@@ -1,4 +1,5 @@
 # Regression Methods
+This repo hosts everything one needs to know about Regression Analysis.
 
 # `CONTRIBUTION GUIDELINES` :page_with_curl:
 ## How to contribute? :eyes:
