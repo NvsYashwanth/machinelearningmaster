@@ -1,6 +1,13 @@
-# Regression Methods
+# Deep dive into Machine Learning
+`This repo hosts everything one needs to know about Machine Learning.
+Every topic will be explained with code examples in ipynb notebooks on multiple datasets.
+This is an on-going project.`
 
-# `CONTRIBUTION GUIDELINES` :page_with_curl:
+# Repository Maintainers:
+1. [NVS Yashwanth](https://github.com/NvsYashwanth)
+2. [Nikil Alakunta](https://github.com/Nikil99)
+
+# CONTRIBUTION GUIDELINES :page_with_curl:
 ## How to contribute? :eyes:
 1. Fork the repository
 2. Make the desired changes (add/delete/modify)
@@ -14,8 +21,11 @@
 
 # ***Contents*** :zap:
 <ol>
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#1-what-is-machine-learning'>What is Machine Learning?</a>
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-applications-of-machine-learning'>Applications of Machine Learning</a>
+  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-types-of-machine-learning'>Types of Machine Learning</a>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master/blob/master/README.md#1-linear-regression'>Linear Regression</a>
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-linear-regression'>Linear Regression</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#prediction-model'>Prediciton Model</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#assumptions-of-linear-regression-models'>Assumptions of Linear Regression Models</a></li>
@@ -24,7 +34,7 @@
   </ul>
  </li>
  
-  <li><a href='https://github.com/NvsYashwanth/Regression-Master#2-types-of-gradient-descnet'>Types Of Gradient Descent</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-types-of-gradient-descnet'>Types Of Gradient Descent</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#batch-gradient-descent'>Batch Gradient Descent</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#stochastic-gradient-descent'>Stochastic Gradient Descent</a></li>
@@ -32,20 +42,20 @@
   </ul>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#3-polynomial-regression'>Polynomial Regression</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#6-polynomial-regression'>Polynomial Regression</a>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#4-learning-curves'>Learning curves</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#7-learning-curves'>Learning curves</a>
  </li>
  
-  <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-bias-and-variance'>Bias and Variance</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#8-bias-and-variance'>Bias and Variance</a>
  <ul>
-   <li><a href='https://github.com/NvsYashwanth/Regression-Master#so-what-is-bias-and-variance-exactly-?'>So what is bias and variance exactly?</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#bias-variance-trade-off'>Bias-Variance Trade-off</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#model-fitting'>Model Fitting</a></li>
  </ul>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#6-regularization-models'>Regularization Models</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#9-regularization-models'>Regularization Models</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#ridge-regression'>Ridge Regression</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#lasso-regression'>Lasso Regression</a></li>
@@ -53,13 +63,25 @@
   </ul>
  </li>
  
-  <li><a href='https://github.com/NvsYashwanth/Regression-Master#7-early-stopping'>Early Stopping</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#10-early-stopping'>Early Stopping</a>
  </li>
  
 </ol>
 
 
-# ***1. Linear Regression***
+# ***1. What is Machine Learning?***
+
+
+---
+# ***2. Applications of Machine Learning***
+
+
+---
+# ***3. Types of Machine Learning***
+
+
+---
+# ***4. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
 
 ## Prediction Model
@@ -207,7 +229,7 @@ The output of the above code :
 * When using Gradient Descent, one should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
 
 
-# ***2. Types Of Gradient Descnet***
+# ***5. Types Of Gradient Descnet***
 * Before getting into further details let us define ***partial derivatives***. 
 
 `In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivatives.`
@@ -297,7 +319,7 @@ In order to find an appropriate learning rate, one can use something like [grid 
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/grad%20algos.png'>
 </p>
 
-# ***3. Polynomial Regression***
+# ***6. Polynomial Regression***
 * Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below:
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/poly%20reg.png'>
@@ -319,7 +341,7 @@ The output of the above code:
 
 ---
 
-# ***4. Learning Curves***
+# ***7. Learning Curves***
 * If a model performs well on the training data but generalizes poorly, then your model is overfitting. If it performs poorly on both, then it is underfitting. This is one way to tell when a model is too simple or too complex.
 * Another way to tell is to look at the learning curves: these are plots of the model’s performance on the training set and the validation set as a function of the training set
 size (or the training iteration).
@@ -369,7 +391,7 @@ The output of the above code :
 * When the model is trained for 1 or 2 instances and the same when used for predicting training set gives higher accuracy that is with lower loss but higher validation loss. This is because the model is overfitting the training data and can not generalize in case of validation set. 
 * As the number of instances over which the model is being trained increases, the validation loss decreases meaning it starts generalizing better than before. However the training loss reaches a plateau after which adding new instances to the training set doesn’t make the average error much better or worse. 
 
-# ***5. Bias and Variance***
+# ***8. Bias and Variance***
 * The two variables to measure the effectiveness of your model are bias and variance.
 
 ### Bias 
@@ -378,30 +400,34 @@ The output of the above code :
 ### Variance 
 * The error from sensitivity to small fluctuations in the training set
 
-## So what is bias and variance exactly?
+## Bias-Variance Trade-off
 * Let's look at the image below to understand.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/bias%20variance%20targets.png'>
 </p>
 
 * Let’s say we have model which is very accurate, therefore the error of our model will be low, meaning a low bias and low variance as shown in first figure. All the data points fit within the bulls-eye. Similarly we can say that if the variance increases, the spread of our data point increases which results in less accurate prediction. And as the bias increases the error between our predicted value and the observed values increases.
 
+* This situation above describes the bias-variance tradeoff. Bias measures the error between what the model captures and what the available data is showing. Variance is the error from sensitivity to small fluctuations in the available data. That is, a model with high variance effectively captures random noise in the available data rather than the intended outputs. We ideally want to find a line that has low bias and low variance.
+
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/complexity%20model.png'>
 </p>
 
 * As we add more and more parameters to our model, its complexity increases, which results in increasing variance and decreasing bias, i.e., overfitting. So we need to find out one optimum point in our model where the decrease in bias is equal to increase in variance. In practice, there is no analytical way to find this point. So how to deal with high variance or high bias?
 
 ## Model Fitting
+* We can find a line that captures the general direction of the points but might not capture every point in the dataset. This would be a ***best fit model***.
+
 ### Why not use use higher order polynomials always?
-* Sadly, no. Basically, we have created a model that fits our training data well but fails to estimate the real relationship among variables beyond the training set. Therefore our model performs poorly on the test data. This problem is called as over-fitting. We also say that the model has high variance and low bias.
+* Sadly, no. Basically, we have created a model that fits our training data well but fails to estimate the real relationship among variables beyond the training set. Therefore our model performs poorly on the test data. This problem is called as ***over-fitting***. We also say that the model has high variance and low bias.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/fitting.png'>
 </p>
 
-* Similarly, we have another problem called underfitting, it occurs when our model neither fits the training data nor generalizes on the new data. Our model is underfit when we have high bias and low variance.
+* Similarly, we have another problem called ***underfitting***, it occurs when our model neither fits the training data nor generalizes on the new data. Our model is underfit when we have high bias and low variance.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/fit%20and%20bias%20and%20variance.png'>
 </p>
 
 ###  Overcome Overfitting for a regression model?
@@ -409,7 +435,7 @@ The output of the above code :
 * Basically there are two methods to overcome overfitting, Reduce the model complexity and Regularization
 * Here we would be discussing about Regularization in detail and how to use it to make your model more generalized.
 
-# ***6. Regularization Models***
+# ***9. Regularization Models***
 * Overfitting happens when model learns signal as well as noise in the training data and wouldn’t perform well on new data on which model wasn’t trained on.
 * Few ways you can avoid overfitting is by cross-validation sampling, reducing number of features, pruning, regularization etc.
 * Regularization is a good way to avoid overfitting and we shall discuss the same. 
@@ -536,5 +562,5 @@ The output of the above code:
   <img src=''>
 </p>
 
-# ***7. Early Stopping***
+# ***10. Early Stopping***
 ---
