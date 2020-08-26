@@ -39,6 +39,10 @@
  </li>
  
   <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-bias-and-variance'>Bias and Variance</a>
+ <ul>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#so-what-is-bias-and-variance-exactly-?'>So what is bias and variance exactly?</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#model-fitting'>Model Fitting</a></li>
+ </ul>
  </li>
  
  <li><a href='https://github.com/NvsYashwanth/Regression-Master#6-regularization-models'>Regularization Models</a>
@@ -366,8 +370,44 @@ The output of the above code :
 * As the number of instances over which the model is being trained increases, the validation loss decreases meaning it starts generalizing better than before. However the training loss reaches a plateau after which adding new instances to the training set doesn’t make the average error much better or worse. 
 
 # ***5. Bias and Variance***
+* The two variables to measure the effectiveness of your model are bias and variance.
 
----
+### Bias 
+* The error or difference between points provided and points captured on your line in your training set
+
+### Variance 
+* The error from sensitivity to small fluctuations in the training set
+
+## So what is bias and variance exactly?
+* Let's look at the image below to understand.
+<p align='center'>
+  <img src=''>
+</p>
+
+* Let’s say we have model which is very accurate, therefore the error of our model will be low, meaning a low bias and low variance as shown in first figure. All the data points fit within the bulls-eye. Similarly we can say that if the variance increases, the spread of our data point increases which results in less accurate prediction. And as the bias increases the error between our predicted value and the observed values increases.
+
+<p align='center'>
+  <img src=''>
+</p>
+
+* As we add more and more parameters to our model, its complexity increases, which results in increasing variance and decreasing bias, i.e., overfitting. So we need to find out one optimum point in our model where the decrease in bias is equal to increase in variance. In practice, there is no analytical way to find this point. So how to deal with high variance or high bias?
+
+## Model Fitting
+### Why not use use higher order polynomials always?
+* Sadly, no. Basically, we have created a model that fits our training data well but fails to estimate the real relationship among variables beyond the training set. Therefore our model performs poorly on the test data. This problem is called as over-fitting. We also say that the model has high variance and low bias.
+<p align='center'>
+  <img src=''>
+</p>
+
+* Similarly, we have another problem called underfitting, it occurs when our model neither fits the training data nor generalizes on the new data. Our model is underfit when we have high bias and low variance.
+<p align='center'>
+  <img src=''>
+</p>
+
+###  Overcome Overfitting for a regression model?
+* To overcome underfitting or high bias, we can basically add new parameters to our model so that the model complexity increases, and thus reducing high bias.
+* Basically there are two methods to overcome overfitting, Reduce the model complexity and Regularization
+* Here we would be discussing about Regularization in detail and how to use it to make your model more generalized.
 
 # ***6. Regularization Models***
 * Overfitting happens when model learns signal as well as noise in the training data and wouldn’t perform well on new data on which model wasn’t trained on.
