@@ -35,14 +35,14 @@
  </li>
  
  <li><a href='https://github.com/NvsYashwanth/Regression-Master#4-learning-curves'>Learning curves</a>
- <ul>
+ </li>
+ 
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-regularization-models'>Regularization Models</a>
+  <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#ridge-regression'>Ridge Regression</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#lasso-regression'>Lasso Regression</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#elastic-net-regression'>Elastic Net Regression</a></li>
   </ul>
- </li>
- 
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-regularization-models'>Regularization Models</a>
  </li>
 </ol>
 
