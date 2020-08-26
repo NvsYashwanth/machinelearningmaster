@@ -338,3 +338,22 @@ The output of the above code :
 
 
 # ***5. Regularization Models***
+* Overfitting happens when model learns signal as well as noise in the training data and wouldn’t perform well on new data on which model wasn’t trained on.
+* Few ways you can avoid overfitting is by cross-validation sampling, reducing number of features, pruning, regularization etc.
+* Regularization is a good way to avoid overfitting and we shall discuss the same. 
+* Regularization basically adds the penalty as model complexity increases. A smiple way to regularize a model is to decrease the number of polynomial dregrees.
+* Regularization will add the penalty for higher terms through a regularization parameter lambda. This will decrease the importance given to higher terms thereby decereasing model complexity.
+<p align='center'>
+  <img src=''>
+</p>
+
+* To simply we must define Parsimonious Models. These are models that explain data with a minimum number of parameters, or predictor variables. Thus Regularization means creating a parsimonious model. 
+* We will go over three regualarization models which are used to constrain parameters of a linear model.
+<p align='center'>
+“Everything should be made simple as possible, but not simpler – Albert Einstein”
+</p>
+
+## Ridge Regression
+* It is also known as Tikhonov regularization.
+* Ridge Regression is a L2 regularization technique. In regularization, we reduce the magnitude of the coefficients. Since Ridge Regression shrinks or reduces the number of parameters, it is mostly used to prevent multicollinearity as well as the model complexity.
+*
