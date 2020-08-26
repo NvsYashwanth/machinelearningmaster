@@ -21,8 +21,11 @@ This is an on-going project.`
 
 # ***Contents*** :zap:
 <ol>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#what-is-machine-learning?'>What is Machine Learning?</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#applications-of-machine-learning'>Applications of Machine Learning</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#types-of-machine-learning'>Types of Machine Learning</a>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master/blob/master/README.md#1-linear-regression'>Linear Regression</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master/blob/master/README.md#4-linear-regression'>Linear Regression</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#prediction-model'>Prediciton Model</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#assumptions-of-linear-regression-models'>Assumptions of Linear Regression Models</a></li>
@@ -31,7 +34,7 @@ This is an on-going project.`
   </ul>
  </li>
  
-  <li><a href='https://github.com/NvsYashwanth/Regression-Master#2-types-of-gradient-descnet'>Types Of Gradient Descent</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-types-of-gradient-descnet'>Types Of Gradient Descent</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#batch-gradient-descent'>Batch Gradient Descent</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#stochastic-gradient-descent'>Stochastic Gradient Descent</a></li>
@@ -39,20 +42,20 @@ This is an on-going project.`
   </ul>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#3-polynomial-regression'>Polynomial Regression</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#6-polynomial-regression'>Polynomial Regression</a>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#4-learning-curves'>Learning curves</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#7-learning-curves'>Learning curves</a>
  </li>
  
-  <li><a href='https://github.com/NvsYashwanth/Regression-Master#5-bias-and-variance'>Bias and Variance</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#8-bias-and-variance'>Bias and Variance</a>
  <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#bias-variance-trade-off'>Bias-Variance Trade-off</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#model-fitting'>Model Fitting</a></li>
  </ul>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Regression-Master#6-regularization-models'>Regularization Models</a>
+ <li><a href='https://github.com/NvsYashwanth/Regression-Master#9-regularization-models'>Regularization Models</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#ridge-regression'>Ridge Regression</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#lasso-regression'>Lasso Regression</a></li>
@@ -60,13 +63,13 @@ This is an on-going project.`
   </ul>
  </li>
  
-  <li><a href='https://github.com/NvsYashwanth/Regression-Master#7-early-stopping'>Early Stopping</a>
+  <li><a href='https://github.com/NvsYashwanth/Regression-Master#10-early-stopping'>Early Stopping</a>
  </li>
  
 </ol>
 
 
-# ***1. Linear Regression***
+# ***4. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
 
 ## Prediction Model
@@ -214,7 +217,7 @@ The output of the above code :
 * When using Gradient Descent, one should ensure that all features have a similar scale (e.g., using Scikit-Learn’s StandardScaler class), or else it will take much longer to converge.
 
 
-# ***2. Types Of Gradient Descnet***
+# ***5. Types Of Gradient Descnet***
 * Before getting into further details let us define ***partial derivatives***. 
 
 `In Gradient Descnet we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameter change. This is called partial derivatives.`
@@ -304,7 +307,7 @@ In order to find an appropriate learning rate, one can use something like [grid 
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/grad%20algos.png'>
 </p>
 
-# ***3. Polynomial Regression***
+# ***6. Polynomial Regression***
 * Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below:
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/poly%20reg.png'>
@@ -326,7 +329,7 @@ The output of the above code:
 
 ---
 
-# ***4. Learning Curves***
+# ***7. Learning Curves***
 * If a model performs well on the training data but generalizes poorly, then your model is overfitting. If it performs poorly on both, then it is underfitting. This is one way to tell when a model is too simple or too complex.
 * Another way to tell is to look at the learning curves: these are plots of the model’s performance on the training set and the validation set as a function of the training set
 size (or the training iteration).
@@ -376,7 +379,7 @@ The output of the above code :
 * When the model is trained for 1 or 2 instances and the same when used for predicting training set gives higher accuracy that is with lower loss but higher validation loss. This is because the model is overfitting the training data and can not generalize in case of validation set. 
 * As the number of instances over which the model is being trained increases, the validation loss decreases meaning it starts generalizing better than before. However the training loss reaches a plateau after which adding new instances to the training set doesn’t make the average error much better or worse. 
 
-# ***5. Bias and Variance***
+# ***8. Bias and Variance***
 * The two variables to measure the effectiveness of your model are bias and variance.
 
 ### Bias 
@@ -420,7 +423,7 @@ The output of the above code :
 * Basically there are two methods to overcome overfitting, Reduce the model complexity and Regularization
 * Here we would be discussing about Regularization in detail and how to use it to make your model more generalized.
 
-# ***6. Regularization Models***
+# ***9. Regularization Models***
 * Overfitting happens when model learns signal as well as noise in the training data and wouldn’t perform well on new data on which model wasn’t trained on.
 * Few ways you can avoid overfitting is by cross-validation sampling, reducing number of features, pruning, regularization etc.
 * Regularization is a good way to avoid overfitting and we shall discuss the same. 
@@ -547,5 +550,5 @@ The output of the above code:
   <img src=''>
 </p>
 
-# ***7. Early Stopping***
+# ***10. Early Stopping***
 ---
