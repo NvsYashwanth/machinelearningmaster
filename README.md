@@ -563,4 +563,9 @@ The output of the above code:
 </p>
 
 # ***10. Early Stopping***
----
+* The idea behind early stopping is that we stop our training when validation error reaches its minimum.
+<p align='center'>
+  <img src='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/early%20stopping.png'>
+</p>
+
+As we keep training, and plot prediction error (RMSE), the RMSE on the training set starts going down, along with its prediction error on the validation set. After a while the validation error starts to go back up. This indicates model is now overfitting the training data. With early stopping we stop our training when validation error reaches its minimum.
