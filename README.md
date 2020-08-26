@@ -451,7 +451,7 @@ The output of the above code:
 ## Elastic Net Regression
 * Elastic Net is a combination of Ridge and Lasso Regression. The regularization term is a mix of both Ridge and Lasso’s regularization terms. Elastic regression generally works well when we have a big dataset. Take a look at the equation given below.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/elastic%20net%20eq.png'>
 </p>
 
 * From above we can see that when r = 0, Elastic Net is equivalent to Ridge Regression, and when r = 1, it is equivalent to Lasso Regression.
