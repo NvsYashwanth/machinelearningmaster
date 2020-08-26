@@ -365,7 +365,7 @@ The output of the above code :
 
 ## Ridge Regression
 * It is also known as Tikhonov regularization.
-* Ridge Regression is a L2 regularization technique. In regularization, we reduce the magnitude of the coefficients. Since Ridge Regression shrinks or reduces the number of parameters, it is mostly used to prevent multicollinearity as well as the model complexity.
+* Ridge Regression is a L2 regularization technique. In regularization, we reduce the magnitude of the coefficients. Since Ridge Regression shrinks or reduces the number of parameters, it is mostly used to prevent multicollinearity as well as in reducing the model complexity.
 * Ridge Regression adds squared magnitude of coefficients as the penalty term to the cost function. Take a look at the equation given below.
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/ridge%20reg%20eq.png'>
