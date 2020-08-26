@@ -344,7 +344,7 @@ The output of the above code :
 * Regularization basically adds the penalty as model complexity increases. A smiple way to regularize a model is to decrease the number of polynomial dregrees.
 * Regularization will add the penalty for higher terms through a regularization parameter lambda. This will decrease the importance given to higher terms thereby decereasing model complexity.
 <p align='center'>
-  <img src=''>
+  <img src='https://github.com/NvsYashwanth/Regression-Master/blob/master/assets/regularization%20intro.png'>
 </p>
 
 * To simply we must define Parsimonious Models. These are models that explain data with a minimum number of parameters, or predictor variables. Thus Regularization means creating a parsimonious model. 
