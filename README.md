@@ -397,7 +397,14 @@ The output of the above code:
 * The following uses ***scikit-learn***
 ```
 ```
+The output of the above code:
+<p align='center'>
+  <img src=''>
+</p>
 
+### Various levels of Ridge regularization
+```
+```
 The output of the above code:
 <p align='center'>
   <img src=''>
