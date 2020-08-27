@@ -76,9 +76,11 @@ This is an on-going project.`
 # ***1. What is Machine Learning?***
 * We shall look at the two most popular definitions of machine learning.
 
-### ***`"Field of study which gives computers the ability to learn without beign explicitly programmed" - Arthur Samuel (1959)`***
+## Arthur Samuel (1959)
+### ***`"Field of study which gives computers the ability to learn without beign explicitly programmed"`***
 
-### ***`"A computer program is said to learn if its performance at a task T, as measured by a performance P, improves with experience E" - Tom Mitchell(1997)`***
+## Tom Mitchell(1997)
+### ***`"A computer program is said to learn if its performance at a task T, as measured by a performance P, improves with experience E"`***
 
 
 # ***2. Applications of Machine Learning***
