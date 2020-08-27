@@ -4,7 +4,7 @@
 ![](https://badgen.net/badge/Code/Python/blue?icon=https://simpleicons.org/icons/python.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Library/ScikitLearn/blue?icon=https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Tools/pandas/blue?icon=https://simpleicons.org/icons/pandas.svg&labelColor=cyan&label)       ![](https://badgen.net/badge/Tools/numpy/blue?icon=https://upload.wikimedia.org/wikipedia/commons/1/1a/NumPy_logo.svg&labelColor=cyan&label)        ![](https://badgen.net/badge/Tools/matplotlib/blue?icon=https://upload.wikimedia.org/wikipedia/en/5/56/Matplotlib_logo.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/icon/JupyterNotebook?icon=awesome&label)
 
 `This repo hosts everything one needs to know about Machine Learning.
-Every topic will be explained with code examples accompanied by ipynb notebooks on multiple datasets.
+Every topic will be explained with code examples accompanied by Jupyter IPYNB notebooks on multiple datasets.
 Most of the content here that you would see, will be brief summaries of what is already given in many books and sites combined.
 This is an on-going project.`
 
