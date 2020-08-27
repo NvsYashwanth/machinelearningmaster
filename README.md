@@ -162,6 +162,8 @@ This is an on-going project.`
 * There is homoscedasticity. That is, the size of the error does not vary by the sizes of the independent variables. The error does not increase substantially if your variables get larger or smaller.
 * The residuals of the linear regression should be normally distributed around a mean of 0.
 
+## [Please follow this link to check out the Jupyter Notebook on Residual Analysis](https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/Residual%20Analysis.ipynb)    ![](https://badgen.net/badge/icon/JupyterNotebook?icon=awesome&label)     :zap:
+
 ## Training
 Let us consider the follow set of data points :
 ```
