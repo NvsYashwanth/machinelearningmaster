@@ -34,7 +34,7 @@ This is an on-going project.`
   
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-applications-of-machine-learning'>Applications of Machine Learning</a></li>
   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-types-of-machine-learning'>Types of Machine Learning</a></li>
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-machine-learning-life-cycle'>Types of Machine Learning</a></li>
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-machine-learning-life-cycle'>Machine Learning Life Cycle</a></li>
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#5-linear-regression'>Linear Regression</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#prediction-model'>Prediciton Model</a></li>
@@ -94,7 +94,6 @@ This is an on-going project.`
   <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/ml%20applications.png">
 </p>
 
----
 # ***3. Types of Machine Learning***
 
 
@@ -104,7 +103,6 @@ This is an on-going project.`
   <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/ml%20life%20cycle.png">
 </p>
 
----
 # ***5. Linear Regression***
 ### `Linear Regression is a supervised machine learning algorithm that predicts a continuous output`
 
