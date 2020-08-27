@@ -42,7 +42,6 @@ This is an on-going project.`
         <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#regression-problems'>Regression Problems</a></li>
       </ul>
      </li>
-     
      <li><a href='https://github.com/NvsYashwanth/Regression-Master#unsupervised-learning'>Unsupervised Learning</a></li>
      <li><a href='https://github.com/NvsYashwanth/Regression-Master#reinforcement-learning'>Reinforcement Learning</a></li>
     </ul>
