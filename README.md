@@ -36,7 +36,13 @@ This is an on-going project.`
  
   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-types-of-machine-learning'>Types of Machine Learning</a>
     <ul>
-     <li><a href='https://github.com/NvsYashwanth/Regression-Master#supervised-learning'>Supervised Learning</a></li>
+     <li><a href='https://github.com/NvsYashwanth/Regression-Master#supervised-learning'>Supervised Learning</a>
+      <ul>
+        <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#classification-problems'>Classification Problems</a></li>
+        <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#regression-problems'>Regression Problems</a></li>
+      </ul>
+     </li>
+     
      <li><a href='https://github.com/NvsYashwanth/Regression-Master#unsupervised-learning'>Unsupervised Learning</a></li>
      <li><a href='https://github.com/NvsYashwanth/Regression-Master#reinforcement-learning'>Reinforcement Learning</a></li>
     </ul>
