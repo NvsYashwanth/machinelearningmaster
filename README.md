@@ -26,8 +26,14 @@ This is an on-going project.`
 # ***Contents*** :zap:
 <ol>
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#1-what-is-machine-learning'>What is Machine Learning?</a>
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-applications-of-machine-learning'>Applications of Machine Learning</a>
-  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-types-of-machine-learning'>Types of Machine Learning</a>
+  <ul>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#arthur-samuel-1959'>Arthur Samuel</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#tom-mitchell1997'>Tom Mitchell</a></li>
+  </ul>
+ </li>
+  
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-applications-of-machine-learning'>Applications of Machine Learning</a></li>
+  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-types-of-machine-learning'>Types of Machine Learning</a></li>
  
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-linear-regression'>Linear Regression</a>
   <ul>
