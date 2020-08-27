@@ -8,7 +8,7 @@ Every topic will be explained with code examples accompanied by ipynb notebooks 
 Most of the content here that you would see, will be brief summaries of what is already given in many books and sites combined.
 This is an on-going project.`
 
-# Repository Maintainers: :two_men_holding_hands:
+# Repository Maintainers :two_men_holding_hands:
 1. [NVS Yashwanth](https://github.com/NvsYashwanth)
 2. [Nikil Alakunta](https://github.com/Nikil99)
 
