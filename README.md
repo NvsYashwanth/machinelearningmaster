@@ -1,10 +1,11 @@
-# Deep dive into Machine Learning
+# The Machine Learning Wiki
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/NvsYashwanth)
 
 ![](https://badgen.net/badge/Code/Python/blue?icon=https://simpleicons.org/icons/python.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Library/ScikitLearn/blue?icon=https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Tools/pandas/blue?icon=https://simpleicons.org/icons/pandas.svg&labelColor=cyan&label)       ![](https://badgen.net/badge/Tools/numpy/blue?icon=https://upload.wikimedia.org/wikipedia/commons/1/1a/NumPy_logo.svg&labelColor=cyan&label)        ![](https://badgen.net/badge/Tools/matplotlib/blue?icon=https://upload.wikimedia.org/wikipedia/en/5/56/Matplotlib_logo.svg&labelColor=cyan&label)
 
 `This repo hosts everything one needs to know about Machine Learning.
-Every topic will be explained with code examples in ipynb notebooks on multiple datasets.
+Every topic will be explained with code examples accompanied by ipynb notebooks on multiple datasets.
+Most of the content here that you would see, will be brief summaries of what is already given in many books and sites combined.
 This is an on-going project.`
 
 # Repository Maintainers: :two_men_holding_hands:
@@ -22,6 +23,8 @@ This is an on-going project.`
 2. If you have a better explanation.
 3. If there is any concept with wrong explanation or mistakes.
 4. If any topic can be expanded further with more emphasis on maths.
+
+# If you find this repo useful, please star it and share :heart: :star:
 
 # ***Contents*** :zap:
 <ol>
@@ -123,6 +126,8 @@ This is an on-going project.`
 ## Reinforcement Learning
 * It is neither based on supervised learning nor unsupervised learning. Moreover, here the algorithms learn to react to an environment on their own. It is rapidly growing and moreover producing a variety of learning algorithms. These algorithms are useful in the field of Robotics, Gaming etc.
 * For a learning agent, there is always a start state and an end state. However, to reach the end state, there might be a different path. In Reinforcement Learning Problem an agent tries to manipulate the environment. The agent travels from one state to another. The agent gets the reward(appreciation) on success but will not receive any reward or appreciation on failure. In this way, the agent learns from the environment.
+
+`NOTE: WE WILL NOT BE DISCUSSING REINFORCEMENT LEARNING`
 
 # ***4. Machine Learning Life Cycle***
 <p align='center'>
