@@ -15,8 +15,9 @@ This is an on-going project.`
 # CONTRIBUTION GUIDELINES :page_with_curl:
 ## How to contribute? :eyes:
 1. Fork the repository
-2. Make the desired changes (add/delete/modify)
-3. Make a pull request
+2. Create a new branch
+3. Make the desired changes (add/delete/modify)
+4. Make a pull request
 
 ## When to contribute? :eyes:
 1. If there is any gramatical error in README files.
