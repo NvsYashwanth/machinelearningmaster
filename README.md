@@ -638,3 +638,16 @@ The output of the above code:
 </p>
 
 * As we keep training, we plot prediction error and observe how our model performs on training and validation datasets. At the begining the error on the training set starts going down, along with its prediction error on the validation set. After a while the validation error starts to go back up. This indicates model is now overfitting the training data. With early stopping, we stop our training when validation error reaches its minimum.
+
+
+# Resources :heart:
+## Books
+
+## Topic wise links
+
+## Newsletters
+
+## Datasets
+
+## Youtube Channels
+
