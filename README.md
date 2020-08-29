@@ -23,7 +23,7 @@ This is an on-going project.`
 1. If there is any gramatical error in README files.
 2. If you have a better explanation.
 3. If there is any concept with wrong explanation or mistakes.
-4. If any topic can be expanded further with more emphasis on maths.
+4. If any topic can be further explained with more emphasis on maths.
 5. If you see a broken link, open an issue.
 
 # If you find this repo useful, please star it and share :heart: :star:
