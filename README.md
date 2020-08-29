@@ -56,6 +56,7 @@ This is an on-going project.`
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#5-linear-regression'>Linear Regression</a>
   <ul>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#prediction-model'>Prediciton Model</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Regression-Master#important-terminology'>Important Terminology</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#assumptions-of-linear-regression-models'>Assumptions of Linear Regression Models</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#training'>Training</a></li>
    <li><a href='https://github.com/NvsYashwanth/Regression-Master#cost-function'>Cost Function</a></li>
@@ -156,6 +157,15 @@ This is an on-going project.`
 <p align='center'>
   <img src='https://github.com/NvsYashwanth/Sales-prediction/blob/master/assets/general%20vector%20pred.png'>
 </p>
+
+## Important terminology 
+### Multicollinearity
+
+### Autocorrelation
+
+### Homoscedasticity
+
+### Residuals
 
 ## Assumptions of Linear Regression Models
 * The relationship between the two variables is linear.
