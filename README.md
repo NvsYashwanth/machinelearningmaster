@@ -116,7 +116,7 @@ This is an on-going project.`
 
 # ***3. Types of Machine Learning***
 ## Supervised Learning
-* In Supervised Learning input is provided as a labelled dataset, a model can learn input to output mappings from the labelled data and use the same for predicitions. There are 2 types of Supervised Learning problems.
+* In Supervised Learning input is provided as a labelled dataset, a model can learn input to output mappings from the labelled data and use the same for predicitions. ***There are 2 types of Supervised Learning problems***.
 
 #### Classification Problems
 * This algorithm helps to predict a discrete value. It can be thought, the input data as a member of a particular class or group. For example, predicting whether the given image if of a dog or not. 
