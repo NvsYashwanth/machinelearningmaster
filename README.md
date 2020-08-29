@@ -159,7 +159,7 @@ This is an on-going project.`
 </p>
 
 ## Important terminology 
-## Correlation
+### Correlation
 
 ### Multicollinearity
 
