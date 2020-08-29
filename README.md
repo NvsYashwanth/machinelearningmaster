@@ -96,6 +96,7 @@ This is an on-going project.`
  
 </ol>
 
+# More to come...  :heart:
 
 # ***1. What is Machine Learning?***
 * We shall look at the two most popular definitions of machine learning.
