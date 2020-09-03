@@ -35,21 +35,21 @@ This is an on-going project.`
    <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#tom-mitchell1997'>Tom Mitchell</a></li>
   </ul>
  </li>
-  
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-applications-of-machine-learning'>Applications of Machine Learning</a></li>
  
-  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-types-of-machine-learning'>Types of Machine Learning</a>
-    <ul>
-     <li><a href='https://github.com/NvsYashwanth/Regression-Master#supervised-learning'>Supervised Learning</a>
-      <ul>
-        <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#classification-problems'>Classification Problems</a></li>
-        <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#regression-problems'>Regression Problems</a></li>
-      </ul>
-     </li>
-     <li><a href='https://github.com/NvsYashwanth/Regression-Master#unsupervised-learning'>Unsupervised Learning</a></li>
-     <li><a href='https://github.com/NvsYashwanth/Regression-Master#reinforcement-learning'>Reinforcement Learning</a></li>
-    </ul>
-  </li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-types-of-machine-learning'>Types of Machine Learning</a>
+   <ul>
+    <li><a href='https://github.com/NvsYashwanth/Regression-Master#supervised-learning'>Supervised Learning</a>
+     <ul>
+       <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#classification-problems'>Classification Problems</a></li>
+       <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#regression-problems'>Regression Problems</a></li>
+     </ul>
+    </li>
+    <li><a href='https://github.com/NvsYashwanth/Regression-Master#unsupervised-learning'>Unsupervised Learning</a></li>
+    <li><a href='https://github.com/NvsYashwanth/Regression-Master#reinforcement-learning'>Reinforcement Learning</a></li>
+   </ul>
+ </li>
+
+ <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-applications-of-machine-learning'>Applications of Machine Learning</a></li>
   
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-machine-learning-life-cycle'>Machine Learning Life Cycle</a></li>
  
@@ -73,14 +73,7 @@ This is an on-going project.`
 ## Tom Mitchell(1997)
 ### ***`"A computer program is said to learn if its performance at a task T, as measured by a performance P, improves with experience E"`***
 
-
-# ***2. Applications of Machine Learning***
-### `This part is self explanatory`
-<p align='center'>
-  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/ml%20applications.png">
-</p>
-
-# ***3. Types of Machine Learning***
+# ***2. Types of Machine Learning***
 ## Supervised Learning
 * In Supervised Learning, input is provided as a labelled dataset. We build a model that can learn a function to perform input to output mapping.  ***There are 2 types of Supervised Learning problems***.
 
@@ -98,6 +91,12 @@ This is an on-going project.`
 * For a learning agent, there is always a start state and an end state. However, to reach the end state, there might be a different path. In Reinforcement Learning Problem an agent tries to manipulate the environment. The agent travels from one state to another. The agent gets the reward(appreciation) on success but will not receive any reward or appreciation on failure. In this way, the agent learns from the environment.
 
 `NOTE: WE WILL NOT BE DISCUSSING REINFORCEMENT LEARNING`
+
+# ***3. Applications of Machine Learning***
+### `This part is self explanatory`
+<p align='center'>
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/ml%20applications.png">
+</p>
 
 # ***4. Machine Learning Life Cycle***
 <p align='center'>
@@ -173,8 +172,25 @@ Let us look at these topics so the next time you build a model, you would exactl
 
 # Resources :heart:
 ## Books
+<ol>
+ <li><a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition</a></li>
+</ol>
 
 ## Topic wise links
+<ol>
+ <li><a>Basic Terminology of Machine Learning</a>
+  <ul>
+   <li><a href="https://www.javatpoint.com/machine-learning">What is Machine Learning? What are the types?</a></li>
+   <li><a href="https://www.javatpoint.com/applications-of-machine-learning">Applications Of Machine Learning</a></li>
+   <li><a href="https://www.javatpoint.com/machine-learning-life-cycle">Machine learning Life cycle</a></li>
+  </ul>
+ </li>
+</ol>
+
+## Websites
+<ol>
+ <li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
+</ol>
 
 ## Newsletters
 
