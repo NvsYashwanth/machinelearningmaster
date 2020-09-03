@@ -99,7 +99,7 @@ This is an on-going project.`
 
 
 # ***5. Bias-Variance***
-##### Source: Medium Article by NVS Yashwanth (Original Author)
+#### Source: Medium Article by NVS Yashwanth (Original Author)
 
 <p align='center'>
 "Avoid the mistake of overfitting and underfitting."
