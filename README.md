@@ -5,7 +5,6 @@
 
 `This repo hosts everything one needs to know about Machine Learning.
 Every topic will be explained with code examples accompanied by Jupyter IPYNB notebooks on multiple datasets.
-Most of the content here that you would see, will be brief summaries of what is already given in many books and sites combined.
 This is an on-going project.`
 
 # Repository Maintainers :two_men_holding_hands:
