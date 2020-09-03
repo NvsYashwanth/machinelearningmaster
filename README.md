@@ -185,6 +185,12 @@ Let us look at these topics so the next time you build a model, you would exactl
    <li><a href="https://www.javatpoint.com/machine-learning-life-cycle">Machine learning Life cycle</a></li>
   </ul>
  </li>
+ 
+  <li><a>Bias-variance</a>
+  <ul>
+   <li><a href="https://medium.com/analytics-vidhya/bias-variance-tradeoff-b4c6c181030d">Bias-Variance Tradeoff - Analytics Vidhya</a></li>
+  </ul>
+ </li>
 </ol>
 
 ## Websites
