@@ -53,6 +53,13 @@ This is an on-going project.`
   
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-machine-learning-life-cycle'>Machine Learning Life Cycle</a></li>
  
+ <li><a href="https://github.com/NvsYashwanth/Machine-Learning-Master#5-bias-variance">Bias-Variance</a>
+  <ul>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#bias-variance-trade-off'>Bias-Variance Tradeoff</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#model-fitting'>Model Fitting</a></li>
+  </ul>
+ </li>
+ 
 </ol>
 
 # More to come...  :heart:
@@ -120,7 +127,7 @@ Let us look at these topics so the next time you build a model, you would exactl
 ***Variance*** is the error that occurs due to sensitivity to small changes in the training set.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/bias%20variance.jpg">
 </p>
 
 * I'll be explaining bias-variance further with the help of the image above. So please follow along. 
@@ -153,9 +160,8 @@ Let us look at these topics so the next time you build a model, you would exactl
 * Similarly, we have another issue. ***It is called underfitting.*** It occurs when our model neither fits the training data nor generalizes on the new data (say any testing data that the model was not trained on). Our model is underfitting when we have high bias and low variance.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/Overfitted_Data.png">
 </p>
-
 
 ***`The image above shows a blue line which is a polynomial regression line. The straight black line is that of a linear function. Although the polynomial function is a perfect fit, the linear function can be expected to generalize better. Thus, we can say that the polynomial function is overfitting, on the other hand, the straight line is the best fit. Think of an imaginary line that hardly passes through any of those points. That would be underfitting.`***
 
