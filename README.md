@@ -62,22 +62,22 @@ This is an on-going project.`
  
   <li><a href="https://github.com/NvsYashwanth/Machine-Learning-Master#6-understanding-gradient-descent">Understanding Gradient Descent</a>
   <ul>
-   <li><a href=''>Cost Function</a></li>
-   <li><a href=''>Gradient Descent</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#cost-function'>Cost Function</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#gradient-descent'>Gradient Descent</a></li>
      <ul>
-      <li><a href=''>Learning Rate</a></li>
-      <li><a href=''>Normalization</a></li>
+      <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#learning-rate-%CE%B1'>Learning Rate α</a></li>
+      <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#normalization'>Normalization</a></li>
   </ul>
    
-   <li><a href=''>The optimization procedure</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#the-optimization-procedure'>The optimization procedure</a></li>
   </ul>
  </li>
  
  <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#7-types-of-gradient-descent'>Types of Gradient Descent</a>
    <ul>
-   <li><a href=''>Batch Gradient Descent</a></li>
-   <li><a href=''>Stochastic Gradient Descent (SGD)</a></li>
-   <li><a href=''>Mini-batch Gradient Descent</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#batch-gradient-descent'>Batch Gradient Descent</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#stochastic-gradient-descent-sgd'>Stochastic Gradient Descent (SGD)</a></li>
+   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#mini-batch-gradient-descent'>Mini-batch Gradient Descent</a></li>
   </ul>
 </li>
  
@@ -207,7 +207,7 @@ Let us look at these topics so the next time you build a model, you would exactl
 * If the shape of the cost function is not a convex function, our goal is to find the lowest possible value in the neighborhood.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/covex.png">
 </p>
 
 ## Gradient Descent
@@ -220,7 +220,7 @@ Let us look at these topics so the next time you build a model, you would exactl
 * It is obvious that we take the direction of the steepest slope to move down quickly. Now, the question is how do we find this direction? Gradient Descent finds the same by measuring the local gradient of the error function and goes in the opposite direction of the gradient until we reach the global minimum.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/descent-1.png">
 </p>
 
 * As mentioned earlier, the algorithm calculates the gradient of the cost function w.r.t every parameter θ, which tells us the slope of our cost function at our current position (current parameter values) and the direction we should move to update our parameters. ***The size of our update is controlled by the learning rate.***
@@ -231,19 +231,19 @@ Let us look at these topics so the next time you build a model, you would exactl
 * ***A high learning rate*** results in large step sizes. Though there is a chance to reach the bottom-most point quickly, we risk overshooting the global minimum as the slope of the hill is constantly changing.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/lr%20large.png">
 </p>
 
 * ***A low learning rate*** results in small step sizes. Thus, we move in the opposite direction of the gradient precisely. The drawback here is the time required for calculating the gradient. So it will take us a very long time to converge (to reach the bottom-most point).
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/lr%20small.png">
 </p>
 
 * As mentioned before, our goal is to reach a global minimum. But at times when our cost function has an irregular curve (mostly in the case of deep learning neural networks), with random initialization in place, one might reach a ***local minimum***, which is not as good as the global minimum. One way to overcome this is by using the concept of momentum.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/pitfalls%20descent.png">
 </p>
 
 * `The learning rate affects how quickly our model can converge. Thus the right value means lesser time for us to train the model. This is crucial because lesser training time means lesser GPU run-time.`
@@ -256,7 +256,7 @@ Let us look at these topics so the next time you build a model, you would exactl
 * Consider n feature variables. An instance xᵢ can be scaled as follows:
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/feature%20scale.png">
 </p>
 
 * `One could use Scikit-Learn’s StandardScaler class to perform feature scaling.`
@@ -274,11 +274,11 @@ Let us look at these topics so the next time you build a model, you would exactl
 3. Upon every iteration of the algorithm, we calculate the gradient of cost function w.r.t every parameter and update them as follows:
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/gradient.png">
 </p>
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/update%20step.png">
 </p>
 
 * `The negative sign in the optimization step shows that we update our parameters in the opposite direction of the gradient computed for cost function L, w.r.t the parameters θ.`
@@ -290,7 +290,7 @@ Let us look at these topics so the next time you build a model, you would exactl
 * The above steps are repeated until the cost function converges. Now, by the convergence we mean, the gradient of the cost function would be equal to 0.
 
 <p align='center'>
-  <img src="">
+  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/convergence.png">
 </p>
 
 # ***7. Types of Gradient Descent***
@@ -351,6 +351,13 @@ Let us look at these topics so the next time you build a model, you would exactl
   <li><a>Bias-variance</a>
   <ul>
    <li><a href="https://medium.com/analytics-vidhya/bias-variance-tradeoff-b4c6c181030d">Bias-Variance Tradeoff - Analytics Vidhya</a></li>
+  </ul>
+ </li>
+</ol>
+
+  <li><a>Gradient Descent</a>
+  <ul>
+   <li><a href="https://medium.com/analytics-vidhya/gradient-descent-and-beyond-ef5cbcc4d83e">Understanding Gradient Descent - Analytics Vidhya</a></li>
   </ul>
  </li>
 </ol>
