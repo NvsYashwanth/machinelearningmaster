@@ -123,6 +123,7 @@ This is an on-going project.`
 </p>
 
 # ***4. Machine Learning Life Cycle***
+### `This part is self explanatory`
 <p align='center'>
   <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/ml%20life%20cycle.png">
 </p>
