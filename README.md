@@ -195,6 +195,8 @@ Let us look at these topics so the next time you build a model, you would exactl
 
 
 # ***6. Understanding Gradient Descent***
+#### Source: Medium Article by NVS Yashwanth (Original Author)
+
 <p align='center'>
 "Let’s reach the global minimum."
 </p>
@@ -294,6 +296,8 @@ Let us look at these topics so the next time you build a model, you would exactl
 </p>
 
 # ***7. Types of Gradient Descent***
+#### Source: Medium Article by NVS Yashwanth (Original Author)
+
 ## Batch Gradient Descent
 * Batch Gradient Descent uses a whole batch of training data at every training step. Thus it is very slow for larger datasets.
 
@@ -322,6 +326,8 @@ Let us look at these topics so the next time you build a model, you would exactl
 * The drawback is, it is difficult to converge as one might jump around the minimum region due to the noise present. These oscillations are the reason we need a learning rate decay to decrease the learning rate as move closer to the minimum.
 
 # ***8. Beyond the first-order optimization***
+#### Source: Medium Article by NVS Yashwanth (Original Author)
+
 * As mentioned earlier, Gradient Descent is a first-order optimization algorithm meaning it only measures the slope of the cost function curve but not the curvature. ( Curvature means the degree by which a curve or a surface deviates from being a straight line or a plane respectively).
 
 * So how nature of the function or its curvature measured? It is determined by the second-order derivative. The curvature affects our training.
@@ -353,7 +359,6 @@ Let us look at these topics so the next time you build a model, you would exactl
    <li><a href="https://medium.com/analytics-vidhya/bias-variance-tradeoff-b4c6c181030d">Bias-Variance Tradeoff - Analytics Vidhya</a></li>
   </ul>
  </li>
-</ol>
 
   <li><a>Gradient Descent</a>
   <ul>
