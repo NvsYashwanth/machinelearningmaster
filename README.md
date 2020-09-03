@@ -88,6 +88,8 @@ This is an on-going project.`
 
 # More to come...  :heart:
 
+## [Resources](https://github.com/NvsYashwanth/Machine-Learning-Master#resources-heart):zap:
+
 # ***1. What is Machine Learning?***
 * We shall look at the two most popular definitions of machine learning.
 
@@ -371,11 +373,15 @@ Let us look at these topics so the next time you build a model, you would exactl
 ## Websites
 <ol>
  <li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
+ <li><a href="https://www.analyticsvidhya.com/blog/?utm_source=feed">Analytics Vidhya</a></li>
+ <li><a>Medium Publications</a>
+ <ul>
+  <li><a href="https://towardsdatascience.com/">Towards Data Science</a></li>
+  <li><a href="https://medium.com/analytics-vidhya">Analytics Vidhya</a></li>
+ </ul>
+</li>
 </ol>
 
-## Newsletters
-
-## Datasets
 
 ## Youtube Channels
 
