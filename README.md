@@ -201,7 +201,7 @@ Let us look at these topics so the next time you build a model, you would exactl
 #### Source: Medium Article by NVS Yashwanth (Original Author)
 
 <p align='center'>
-  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/gradient_descent_method.png">
+  <img src="https://github.com/NvsYashwanth/ML-Master/blob/master/assets/Gradient_descent_method.png">
 </p>
 
 
