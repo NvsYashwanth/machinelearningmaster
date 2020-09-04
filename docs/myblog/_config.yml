@@ -28,7 +28,7 @@ twitter_username: YashwanthNvs
 github_username:  NvsYashwanth
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 markdown: kramdown
