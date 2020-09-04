@@ -4,6 +4,7 @@
 
 permalink: /index.html
 layout: default
+title: home
 ---
 # ***Machine Learning Master***
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/NvsYashwanth)
