@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
 # ***Machine Learning Master***
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/NvsYashwanth)
@@ -18,60 +18,60 @@ This is an ongoing project. If you had like to contribute, check the contributio
 
 # ***Contents***
 <ol>
- <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>What is Machine Learning?</a>
+ <li><a href='mlwhat'>What is Machine Learning?</a>
   <ul>
-   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Arthur Samuel</a></li>
-   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Tom Mitchell</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlwhat/'>Arthur Samuel</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlwhat/'>Tom Mitchell</a></li>
   </ul>
  </li>
  
-   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Types of Machine Learning</a>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/mltype/'>Types of Machine Learning</a>
    <ul>
-    <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Supervised Learning</a>
+    <li><a href='https://nvsyashwanth.github.io/ML-Master/mltype/'>Supervised Learning</a>
      <ul>
-       <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Classification Problems</a></li>
-       <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Regression Problems</a></li>
+       <li><a href='https://nvsyashwanth.github.io/ML-Master/mltype/'>Classification Problems</a></li>
+       <li><a href='https://nvsyashwanth.github.io/ML-Master/mltype/'>Regression Problems</a></li>
      </ul>
     </li>
-    <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Unsupervised Learning</a></li>
-    <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Reinforcement Learning</a></li>
+    <li><a href='https://nvsyashwanth.github.io/ML-Master/mltype/'>Unsupervised Learning</a></li>
+    <li><a href='https://nvsyashwanth.github.io/ML-Master/mltype/'>Reinforcement Learning</a></li>
    </ul>
  </li>
 
- <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Applications of Machine Learning</a></li>
+ <li><a href='https://nvsyashwanth.github.io/ML-Master/mlapp/'>Applications of Machine Learning</a></li>
   
- <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Machine Learning Life Cycle</a></li>
+ <li><a href='https://nvsyashwanth.github.io/ML-Master/mlcycle/'>Machine Learning Life Cycle</a></li>
  
- <li><a href="https://github.com/NvsYashwanth/Machine-Learning-Master#5-bias-variance">Bias-Variance</a>
+ <li><a href="https://nvsyashwanth.github.io/ML-Master/bv/">Bias-Variance</a>
   <ul>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#bias-variance-trade-off'>Bias-Variance Tradeoff</a></li>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#model-fitting'>Model Fitting</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/bv/'>Bias-Variance Tradeoff</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/bv/'>Model Fitting</a></li>
   </ul>
  </li>
  
-  <li><a href="https://github.com/NvsYashwanth/Machine-Learning-Master#6-understanding-gradient-descent">Understanding Gradient Descent</a>
+  <li><a href="https://nvsyashwanth.github.io/ML-Master/ugd/">Understanding Gradient Descent</a>
   <ul>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#cost-function'>Cost Function</a></li>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#gradient-descent'>Gradient Descent</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/ugd/'>Cost Function</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/ugd/'>Gradient Descent</a></li>
      <ul>
-      <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#learning-rate-%CE%B1'>Learning Rate α</a></li>
-      <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#normalization'>Normalization</a></li>
+      <li><a href='https://nvsyashwanth.github.io/ML-Master/ugd/'>Learning Rate α</a></li>
+      <li><a href='https://nvsyashwanth.github.io/ML-Master/ugd/'>Normalization</a></li>
   </ul>
    
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#the-optimization-procedure'>The optimization procedure</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/ugd/'>The optimization procedure</a></li>
   </ul>
  </li>
  
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#7-types-of-gradient-descent'>Types of Gradient Descent</a>
+ <li><a href='https://nvsyashwanth.github.io/ML-Master/typesgd/'>Types of Gradient Descent</a>
    <ul>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#batch-gradient-descent'>Batch Gradient Descent</a></li>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#stochastic-gradient-descent-sgd'>Stochastic Gradient Descent (SGD)</a></li>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#mini-batch-gradient-descent'>Mini-batch Gradient Descent</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/typesgd/'>Batch Gradient Descent</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/typesgd/'>Stochastic Gradient Descent (SGD)</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/typesgd/'>Mini-batch Gradient Descent</a></li>
   </ul>
 </li>
  
  
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#8-beyond-the-first-order-optimization'>Beyond the first-order optimization</a></li>
+ <li><a href='https://nvsyashwanth.github.io/ML-Master/firstorder/'>Beyond the first-order optimization</a></li>
  
 </ol>
 

@@ -1,17 +1,10 @@
 ---
 layout: page
-title: Machine Learning Basics
-permalink: /mlbasics/
+title: Types Of Machine Learning
+permalink: /mltype/
+nav_order: 2
 ---
 
-# ***1. What is Machine Learning?***
-* We shall look at the two most popular definitions of machine learning.
-
-## Arthur Samuel (1959)
-### ***`"Field of study which gives computers the ability to learn without beign explicitly programmed"`***
-
-## Tom Mitchell(1997)
-### ***`"A computer program is said to learn if its performance at a task T, as measured by a performance P, improves with experience E"`***
 
 # ***2. Types of Machine Learning***
 ## Supervised Learning
@@ -31,11 +24,3 @@ permalink: /mlbasics/
 * For a learning agent, there is always a start state and an end state. However, to reach the end state, there might be a different path. In Reinforcement Learning Problem an agent tries to manipulate the environment. The agent travels from one state to another. The agent gets the reward(appreciation) on success but will not receive any reward or appreciation on failure. In this way, the agent learns from the environment.
 
 `NOTE: WE WILL NOT BE DISCUSSING REINFORCEMENT LEARNING`
-
-# ***3. Applications of Machine Learning***
-### `This part is self explanatory`
-
-
-# ***4. Machine Learning Life Cycle***
-### `This part is self explanatory`
-
