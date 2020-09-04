@@ -1,7 +1,8 @@
 ---
 layout: page
 title: 6. Understanding Gradient Descent
-permalink: /ugd/
+permalink: /understanding-gradient-descent/
+has_children: true
 nav_order: 6
 ---
 # ***6. Understanding Gradient Descent***

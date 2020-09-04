@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 4. Machine Learning Life Cycle
-permalink: /mlcycle/
+permalink: /machine-learning-life-cycle/
 nav_order: 4
 ---
 

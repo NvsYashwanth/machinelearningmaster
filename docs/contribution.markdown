@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contribution Guidlines
-permalink: /contribution/
+permalink: /contribution-guidlines/
 ---
 
 ## ***Developers***

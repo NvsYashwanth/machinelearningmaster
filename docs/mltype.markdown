@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2. Types Of Machine Learning
-permalink: /mltype/
+permalink: /types-of-machine-learning/
 nav_order: 2
 ---
 

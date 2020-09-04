@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 5. Bias-Variance
-permalink: /bv/
+permalink: /bias-variance/
 nav_order: 5
 ---
 # ***5. Bias-Variance***

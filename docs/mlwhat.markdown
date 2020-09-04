@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 1. What is Machine Learning?
-permalink: /mlwhat/
+permalink: /what-is-machine-learning/
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 3. Applications of Machine Learning
-permalink: /mlapp/
+permalink: /applications-of-machine-learning/
 nav_order: 3
 ---
 

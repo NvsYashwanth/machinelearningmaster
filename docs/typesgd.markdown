@@ -1,12 +1,13 @@
 ---
 layout: page
-title: 7. Types Of Gradient Descent
-permalink: /typesgd/
-nav_order: 7
+title: 6.1. Types Of Gradient Descent
+permalink: /types-of-gradient-descent/
+parent: 6. Understanding Gradient Descent
+nav_order: 1
 ---
 
 
-# ***7. Types of Gradient Descent***
+# ***6.1. Types of Gradient Descent***
 #### Source: Medium Article by NVS Yashwanth (Original Author)
 
 ## ***Batch Gradient Descent***
