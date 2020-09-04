@@ -19,29 +19,29 @@ This is an ongoing project. If you had like to contribute, check the contributio
 
 # ***Contents***
 <ol>
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#1-what-is-machine-learning'>What is Machine Learning?</a>
+ <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>What is Machine Learning?</a>
   <ul>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#arthur-samuel-1959'>Arthur Samuel</a></li>
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#tom-mitchell1997'>Tom Mitchell</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Arthur Samuel</a></li>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Tom Mitchell</a></li>
   </ul>
  </li>
  
-   <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#2-types-of-machine-learning'>Types of Machine Learning</a>
+   <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Types of Machine Learning</a>
    <ul>
-    <li><a href='https://github.com/NvsYashwanth/Regression-Master#supervised-learning'>Supervised Learning</a>
+    <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Supervised Learning</a>
      <ul>
-       <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#classification-problems'>Classification Problems</a></li>
-       <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/README.md#regression-problems'>Regression Problems</a></li>
+       <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Classification Problems</a></li>
+       <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Regression Problems</a></li>
      </ul>
     </li>
-    <li><a href='https://github.com/NvsYashwanth/Regression-Master#unsupervised-learning'>Unsupervised Learning</a></li>
-    <li><a href='https://github.com/NvsYashwanth/Regression-Master#reinforcement-learning'>Reinforcement Learning</a></li>
+    <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Unsupervised Learning</a></li>
+    <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Reinforcement Learning</a></li>
    </ul>
  </li>
 
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#3-applications-of-machine-learning'>Applications of Machine Learning</a></li>
+ <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Applications of Machine Learning</a></li>
   
- <li><a href='https://github.com/NvsYashwanth/Machine-Learning-Master#4-machine-learning-life-cycle'>Machine Learning Life Cycle</a></li>
+ <li><a href='https://nvsyashwanth.github.io/ML-Master/mlbasics/'>Machine Learning Life Cycle</a></li>
  
  <li><a href="https://github.com/NvsYashwanth/Machine-Learning-Master#5-bias-variance">Bias-Variance</a>
   <ul>
