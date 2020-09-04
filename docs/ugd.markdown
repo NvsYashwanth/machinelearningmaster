@@ -6,7 +6,6 @@ has_children: true
 nav_order: 6
 ---
 # ***6. Understanding Gradient Descent***
-#### Source: Medium Article by NVS Yashwanth (Original Author)
 
 <p align='center'>
   <img src="../assets/images/Gradient_descent_method.png">

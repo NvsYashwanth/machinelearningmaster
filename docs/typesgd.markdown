@@ -8,7 +8,6 @@ nav_order: 1
 
 
 # ***6.1. Types of Gradient Descent***
-#### Source: Medium Article by NVS Yashwanth (Original Author)
 
 ## ***Batch Gradient Descent***
 * Batch Gradient Descent uses a whole batch of training data at every training step. Thus it is very slow for larger datasets.

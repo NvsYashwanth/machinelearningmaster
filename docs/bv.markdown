@@ -5,7 +5,6 @@ permalink: /bias-variance/
 nav_order: 5
 ---
 # ***5. Bias-Variance***
-#### Source: Medium Article by NVS Yashwanth (Original Author)
 
 <p align='center'>
 "Avoid the mistake of overfitting and underfitting."
