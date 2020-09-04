@@ -8,7 +8,7 @@ nav_order: 6
 #### Source: Medium Article by NVS Yashwanth (Original Author)
 
 <p align='center'>
-  <img src="../assets/images/gradient_descent_method.png">
+  <img src="../assets/images/Gradient_descent_method.png">
 </p>
 
 <p align='center'>
