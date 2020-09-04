@@ -34,12 +34,8 @@ permalink: /mlbasics/
 
 # ***3. Applications of Machine Learning***
 ### `This part is self explanatory`
-<p align='center'>
-  <img src="/assets/ml%20applications.png">
-</p>
+
 
 # ***4. Machine Learning Life Cycle***
 ### `This part is self explanatory`
-<p align='center'>
-  <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/ml%20life%20cycle.png">
-</p>
+
