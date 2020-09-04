@@ -19,7 +19,7 @@ This is an ongoing project. If you want to contribute, check out the contributio
 </p>
 
 
-# ***Contents*** :zap:
+# ***Contents***
 <ol>
  <li><a href='mlwhat/#1-what-is-machine-learning'>What is Machine Learning?</a>
   <ul>
@@ -78,7 +78,7 @@ This is an ongoing project. If you want to contribute, check out the contributio
  
 </ol>
 
-# ***Contribution Guidlines*** :page_with_curl:
+# ***Contribution Guidlines***
 <ol>
   <ul>
    <li><a href="contribution/#developers">Developers</a></li>
@@ -87,7 +87,7 @@ This is an ongoing project. If you want to contribute, check out the contributio
   </ul>
 </ol>
 
-# ***Resources*** :blue_book:
+# ***Resources***
 <ol>
   <ul>
    <li><a href="resources/#books">Books</a></li>

@@ -7,9 +7,8 @@
 Every topic will be explained with code examples accompanied by Jupyter IPYNB notebooks on multiple datasets.
 This is an on-going project.`
 
-# Developers :two_men_holding_hands:
+# Developers
 1. [NVS Yashwanth - Repository Maintainer & Owner](https://github.com/NvsYashwanth)
-2. [Nikil Alakunta - Repository Contributor](https://github.com/Nikil99)
 
 # CONTRIBUTION GUIDELINES :page_with_curl:
 ## How to contribute? :eyes:
