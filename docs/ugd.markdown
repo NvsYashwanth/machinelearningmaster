@@ -13,7 +13,7 @@ nav_order: 6
 
 ***`Optimization algorithms are algorithms that are designed to converge to a solution. The solution here could be a local minimum or the global minimum by minimizing a cost function say ‘L’.`***
 
-## Cost Function
+## ***Cost Function***
 * The cost function is a measure of how good our model is at making predictions. The shape of a cost function defines our goal of optimization.
 * If the shape of the cost function is a convex function, our goal is to find the only minimum. This is relatively simpler cause there is no local minimum and we just need to converge to the global minimum.
 * If the shape of the cost function is not a convex function, our goal is to find the lowest possible value in the neighborhood.
@@ -22,7 +22,7 @@ nav_order: 6
   <img src="https://github.com/NvsYashwanth/Machine-Learning-Master/blob/master/assets/covex.png">
 </p>
 
-## Gradient Descent
+## ***Gradient Descent***
 * ***`Gradient descent is a first-order iterative optimization algorithm used to minimize a function L, commonly used in machine learning and deep learning.`***
 
 * It’s a ***first-order optimization algorithm*** because, in every iteration, the algorithm takes the first-order derivative for updating the parameters. Parameters refer to coefficients in a regression problem or the weights of a neural network. These parameters are updated by the gradient which gives the direction of the steepest ascent. In every iteration, this is performed by updating parameters in the opposite direction of the gradient computed for cost function L, w.r.t the parameters θ. The size of the update is determined by the step size called ***learning rate α***.
@@ -39,7 +39,7 @@ nav_order: 6
 
 * The most commonly used learning rates are : 0.3, 0.1, 0.03, 0.01, 0.003, 0.001.
 
-### Learning Rate α
+### ***Learning Rate α***
 * ***A high learning rate*** results in large step sizes. Though there is a chance to reach the bottom-most point quickly, we risk overshooting the global minimum as the slope of the hill is constantly changing.
 
 <p align='center'>
@@ -60,7 +60,7 @@ nav_order: 6
 
 * `The learning rate affects how quickly our model can converge. Thus the right value means lesser time for us to train the model. This is crucial because lesser training time means lesser GPU run-time.`
 
-### Normalization
+### ***Normalization***
 * Before performing Gradient Descent, it is important to scale all our feature variables. Feature scaling plays a huge role in the shape of the cost function defined. The Gradient Descent algorithm converges quickly when normalization is performed or contours of cost function would be narrower and taller, which means it would take a longer time to converge.
 
 * Normalizing data means scaling the data to attain (mean) ***μ=0*** with (standard deviation) ***σ=1***.
@@ -73,7 +73,7 @@ nav_order: 6
 
 * `One could use Scikit-Learn’s StandardScaler class to perform feature scaling.`
 
-## The optimization procedure
+## ***The optimization procedure***
 * Before getting into further details let us define partial derivatives.
 * ***`In Gradient Descent we compute the gradient of the cost function w.r.t every parameter. This means that we calculate how much the cost function varies when either of the parameters changes. This is called a partial derivative.`***
 
