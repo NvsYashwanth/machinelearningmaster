@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Understanding Gradient Descent
+title: 6. Understanding Gradient Descent
 permalink: /ugd/
 nav_order: 6
 ---

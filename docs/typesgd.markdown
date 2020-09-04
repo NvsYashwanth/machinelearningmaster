@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Types Of Gradient Descent
+title: 7. Types Of Gradient Descent
 permalink: /typesgd/
 nav_order: 7
 ---

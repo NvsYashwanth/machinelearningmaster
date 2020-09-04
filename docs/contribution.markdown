@@ -4,17 +4,16 @@ title: Contribution Guidlines
 permalink: /contribution/
 ---
 
-## ***Developers***
+## ***Developers*** :smiley:
 1. [NVS Yashwanth - Repository Maintainer & Owner](https://github.com/NvsYashwanth)
-2. [Nikil Alakunta - Repository Contributor](https://github.com/Nikil99)
 
-## ***How to contribute?***
+## ***How to contribute?*** :eyes:
 1. Fork the repository
 2. Create a new branch
 3. Make the desired changes (add/delete/modify)
 4. Make a pull request
 
-## ***When to contribute?***
+## ***When to contribute?*** :eyes:
 1. If there is any gramatical error in README files.
 2. If you have a better explanation.
 3. If there is any concept with wrong explanation or mistakes.

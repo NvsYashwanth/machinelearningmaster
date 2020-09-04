@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Applications of Machine Learning
+title: 3. Applications of Machine Learning
 permalink: /mlapp/
 nav_order: 3
 ---

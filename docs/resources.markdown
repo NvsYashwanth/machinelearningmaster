@@ -4,12 +4,12 @@ title: Resources
 permalink: /resources/
 ---
 # ***Resources***
-## ***Books***
+## ***Books*** :blue_book:
 <ol>
  <li><a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition</a></li>
 </ol>
 
-## ***Topic wise links***
+## ***Topic wise links*** :link:
 <ol>
  <li><a>Basic Terminology of Machine Learning</a>
   <ul>
@@ -32,7 +32,7 @@ permalink: /resources/
  </li>
 </ol>
 
-## ***Websites***
+## ***Websites*** :earth_asia:
 <ol>
  <li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
  <li><a href="https://www.analyticsvidhya.com/blog/?utm_source=feed">Analytics Vidhya</a></li>
@@ -43,6 +43,3 @@ permalink: /resources/
  </ul>
 </li>
 </ol>
-
-
-## ***Youtube Channels***

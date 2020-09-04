@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bias-Variance
+title: 5. Bias-Variance
 permalink: /bv/
 nav_order: 5
 ---

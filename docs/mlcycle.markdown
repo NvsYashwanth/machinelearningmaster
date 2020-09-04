@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Learning Life Cycle
+title: 4. Machine Learning Life Cycle
 permalink: /mlcycle/
 nav_order: 4
 ---

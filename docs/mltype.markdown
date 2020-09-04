@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Types Of Machine Learning
+title: 2. Types Of Machine Learning
 permalink: /mltype/
 nav_order: 2
 ---

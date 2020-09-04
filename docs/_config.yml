@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ML Master
+title: Machine Learning Master
 email: nvsyashwanth338@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Begin your Machine Learning journey here. 
-baseurl: "/ML-Master" # the subpath of your site, e.g. /blog
+baseurl: "/machinelearningmaster" # the subpath of your site, e.g. /blog
 url: "https://nvsyashwanth.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: YashwanthNvs
 github_username:  NvsYashwanth
@@ -37,18 +37,15 @@ plugins:
 markdown: kramdown
 
 aux_links:
-  "ML Master On GitHub":
-    - "//github.com/NvsYashwanth/ML-Master"
+  "Machine Learning Master On GitHub":
+    - "//github.com/NvsYashwanth/machinelearningmaster"
 
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "By - NVS Yashwanth. Distributed by an <a href=\"https://github.com/NvsYashwanth/ML-Master/blob/master/LICENSE\">MIT license.</a>"
+footer_content: "Copyright © 2020 NVS Yashwanth. Distributed by an <a href=\"https://github.com/NvsYashwanth/machinelearningmaster/blob/master/LICENSE\">MIT license.</a>"
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89

@@ -1,12 +1,11 @@
 ---
 layout: page
-title: What is Machine Learning?
+title: 1. What is Machine Learning?
 permalink: /mlwhat/
 nav_order: 1
 ---
 
 # ***1. What is Machine Learning?***
-* We shall look at the two most popular definitions of machine learning.
 
 ## ***Arthur Samuel (1959)***
 ### ***`"Field of study which gives computers the ability to learn without beign explicitly programmed"`***

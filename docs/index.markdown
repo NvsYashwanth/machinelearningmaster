@@ -10,11 +10,13 @@ nav_exclude: true
 
 ![](https://badgen.net/badge/Code/Python/blue?icon=https://simpleicons.org/icons/python.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Library/ScikitLearn/blue?icon=https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Tools/pandas/blue?icon=https://simpleicons.org/icons/pandas.svg&labelColor=cyan&label)       ![](https://badgen.net/badge/Tools/numpy/blue?icon=https://upload.wikimedia.org/wikipedia/commons/1/1a/NumPy_logo.svg&labelColor=cyan&label)        ![](https://badgen.net/badge/Tools/matplotlib/blue?icon=https://upload.wikimedia.org/wikipedia/en/5/56/Matplotlib_logo.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/icon/JupyterNotebook?icon=awesome&label)
 
-**`Welcome to ML master.
+<p align='center'>
+<h2><strong><em>Welcome to Machine Learning master.
 This site hosts explanations of machine learning concepts with just enough math and code.
-Links to various learning resources can be found here as well.
-Makes use of the side bar on the left, to navigate through the site.
-This is an ongoing project. If you had like to contribute, check the contribution guidlines regarding the same.`**
+Links to various learning resources can be found as well.
+Make use of the navigation and  search bar to guide your way through the site.
+This is an ongoing project. If you want to contribute, check out the contribution guidlines regarding the same.</em></strong></h2>
+</p>
 
 
 # ***Contents*** :zap:
@@ -76,7 +78,7 @@ This is an ongoing project. If you had like to contribute, check the contributio
  
 </ol>
 
-# ***Contribution Guidlines***
+# ***Contribution Guidlines*** :page_with_curl:
 <ol>
   <ul>
    <li><a href="contribution/#developers">Developers</a></li>
@@ -85,7 +87,7 @@ This is an ongoing project. If you had like to contribute, check the contributio
   </ul>
 </ol>
 
-# ***Resources***
+# ***Resources*** :blue_book:
 <ol>
   <ul>
    <li><a href="resources/#books">Books</a></li>

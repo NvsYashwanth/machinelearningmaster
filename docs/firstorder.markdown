@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Beyond First Order Optimization
+title: 8. Beyond First Order Optimization
 permalink: /firstorder/
 nav_order: 8
 ---
-# ***8. Beyond the first-order optimization***
+# ***8. Beyond First Order Optimization***
 #### Source: Medium Article by NVS Yashwanth (Original Author)
 
 * As mentioned earlier, Gradient Descent is a first-order optimization algorithm meaning it only measures the slope of the cost function curve but not the curvature. ( Curvature means the degree by which a curve or a surface deviates from being a straight line or a plane respectively).
