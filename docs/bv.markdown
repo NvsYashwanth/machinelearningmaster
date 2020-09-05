@@ -18,8 +18,6 @@ Let us look at these topics so the next time you build a model, you would exactl
   "The two variables to measure the effectiveness of your model are bias and variance."
 </p>
 
-`Note: Please know that we are talking about the effectiveness of the model. If you are wondering about model validation, that is something we will discuss later.`
-
 ***Bias*** is the error or difference between points given and points plotted on the line in your training set.
 
 ***Variance*** is the error that occurs due to sensitivity to small changes in the training set.
