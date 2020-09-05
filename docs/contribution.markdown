@@ -2,6 +2,7 @@
 layout: page
 title: Contribution Guidlines
 permalink: /contribution-guidlines/
+nav_order: 10
 ---
 
 ## ***Developers***

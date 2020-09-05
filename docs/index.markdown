@@ -13,6 +13,7 @@ nav_exclude: true
 <p align='center'>
 <h2><strong><em>Welcome to Machine Learning master.
 This site hosts explanations of machine learning concepts with just enough math and code.
+To understand the concepts better, various Machine Learning, Deep Learning projects with their code & README files can be found in the projects section.
 Links to various learning resources can be found as well.
 Make use of the navigation and  search bar to guide your way through the site.
 This is an ongoing project. If you want to contribute, check out the contribution guidlines regarding the same.</em></strong></h2>
@@ -78,13 +79,10 @@ This is an ongoing project. If you want to contribute, check out the contributio
   
 </ol>
 
-# ***Contribution Guidlines***
+# ***Projects***
 <ol>
-  <ul>
-   <li><a href="contribution/#developers">Developers</a></li>
-   <li><a href="contribution/#how-to-contribute">How to contribute?</a></li>
-   <li><a href="contribution/#when-to-contribute">When to contribute?</a></li>
-  </ul>
+   <li><a href="machine-learning-projects">Machine Learning Projects</a></li>
+   <li><a href="deep-learning-projects">Deep Learning Projects</a></li>
 </ol>
 
 # ***Resources***
@@ -93,7 +91,16 @@ This is an ongoing project. If you want to contribute, check out the contributio
    <li><a href="resources/#books">Books</a></li>
    <li><a href="resources/#topic-wise-links">Topic Wise Links</a></li>
    <li><a href="resources/#websites">Websites</a></li>
-   <li><a href="resources/#youtube-channels">Youtube Channels</a></li>
+  </ul>
+</ol>
+
+
+# ***Contribution Guidlines***
+<ol>
+  <ul>
+   <li><a href="contribution-guidlines/#developers">Developers</a></li>
+   <li><a href="contribution-guidlines/#how-to-contribute">How to contribute?</a></li>
+   <li><a href="contribution-guidlines/#when-to-contribute">When to contribute?</a></li>
   </ul>
 </ol>
 
