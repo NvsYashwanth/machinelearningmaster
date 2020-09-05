@@ -2,7 +2,7 @@
 layout: page
 title: Website Theme
 permalink: /website-theme/
-nav_order: 11
+nav_order: 13
 ---
 
 This is a Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

@@ -22,14 +22,14 @@ This is an ongoing project. If you want to contribute, check out the contributio
 
 # ***Contents***
 <ol>
- <li><a href='what-is-machine-learning/#1-what-is-machine-learning'>What is Machine Learning?</a>
+ <li><a href='what-is-machine-learning/'>What is Machine Learning?</a>
   <ul>
    <li><a href='what-is-machine-learning/#arthur-samuel-1959'>Arthur Samuel</a></li>
    <li><a href='what-is-machine-learning/#tom-mitchell1997'>Tom Mitchell</a></li>
   </ul>
  </li>
  
-   <li><a href='types-of-machine-learning/#2-types-of-machine-learning'>Types of Machine Learning</a>
+   <li><a href='types-of-machine-learning/'>Types of Machine Learning</a>
    <ul>
     <li><a href='types-of-machine-learning/#supervised-learning'>Supervised Learning</a>
      <ul>
@@ -42,18 +42,18 @@ This is an ongoing project. If you want to contribute, check out the contributio
    </ul>
  </li>
 
- <li><a href='applications-of-machine-learning/#3-applications-of-machine-learning'>Applications of Machine Learning</a></li>
+ <li><a href='applications-of-machine-learning/'>Applications of Machine Learning</a></li>
   
- <li><a href='machine-learning-life-cycle/#4-machine-learning-life-cycle'>Machine Learning Life Cycle</a></li>
+ <li><a href='machine-learning-life-cycle/'>Machine Learning Life Cycle</a></li>
  
- <li><a href="bias-variance/#5-bias-variance">Bias-Variance</a>
+ <li><a href="bias-variance/">Bias-Variance</a>
   <ul>
    <li><a href='bias-variance/#bias-variance-trade-off'>Bias-Variance Tradeoff</a></li>
    <li><a href='bias-variance/#model-fitting'>Model Fitting</a></li>
   </ul>
  </li>
  
-  <li><a href="understanding-gradient-descent/#6-understanding-gradient-descent">Understanding Gradient Descent</a>
+  <li><a href="understanding-gradient-descent/">Understanding Gradient Descent</a>
   <ul>
    <li><a href='understanding-gradient-descent/#cost-function'>Cost Function</a></li>
    <li><a href='understanding-gradient-descent/#gradient-descent'>Gradient Descent</a></li>
@@ -63,21 +63,24 @@ This is an ongoing project. If you want to contribute, check out the contributio
   </ul>
    
    <li><a href='understanding-gradient-descent/#the-optimization-procedure'>The optimization procedure</a></li>
+    <li>
+    <li><a href='understanding-gradient-descent/#types-of-gradient-descent'>Types of Gradient Descent</a>
+      <ul>
+      <li><a href='understanding-gradient-descent/#batch-gradient-descent'>Batch Gradient Descent</a></li>
+      <li><a href='understanding-gradient-descent/#stochastic-gradient-descent-sgd'>Stochastic Gradient Descent (SGD)</a></li>
+      <li><a href='understanding-gradient-descent/#mini-batch-gradient-descent'>Mini-batch Gradient Descent</a></li>
+      </ul>
+    </li>
+    <li><a href='understanding-gradient-descent/#beyond-first-order-optimization'>Beyond the first-order optimization</a></li>
+  </li>
   </ul>
  </li>
- 
-  <ol>
-  <li><a href='types-of-gradient-descent/#6.1-types-of-gradient-descent'>Types of Gradient Descent</a>
-    <ul>
-    <li><a href='types-of-gradient-descent/#batch-gradient-descent'>Batch Gradient Descent</a></li>
-    <li><a href='types-of-gradient-descent/#stochastic-gradient-descent-sgd'>Stochastic Gradient Descent (SGD)</a></li>
-    <li><a href='types-of-gradient-descent/#mini-batch-gradient-descent'>Mini-batch Gradient Descent</a></li>
-    </ul>
-  </li>
-   <li><a href='beyond-first-order-optimization/#6.2-beyond-the-first-order-optimization'>Beyond the first-order optimization</a></li>
-  </ol>
-  
+
+  <li><a href="learning-curves/">Learning Curves</a></li>
+  <li><a href="early-stopping/">Early Stopping</a></li>
 </ol>
+
+### ***MORE CONTENT COMING SOON!***
 
 # ***Projects***
 <ol>
