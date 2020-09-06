@@ -10,3 +10,4 @@ end
 
 gem "just-the-docs"
 gem "jemoji"
+gem "jekyll-menus"

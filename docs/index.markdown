@@ -16,9 +16,20 @@ This site hosts explanations of machine learning concepts with just enough math 
 To understand the concepts better, various Machine Learning, Deep Learning projects with their code & README files can be found in the projects section.
 Links to various learning resources can be found as well.
 Make use of the navigation and  search bar to guide your way through the site.
-This is an ongoing project. If you want to contribute, check out the contribution guidlines regarding the same.</em></strong></h2>
+This is an ongoing project. If you want to contribute, check out the contribution guidelines regarding the same.</em></strong></h2>
 </p>
 
+<p align='center'>
+<h3><strong><em>Developed By NVS Yashwanth.</em></strong></h3>
+</p>
+
+<p align='center'>
+  <a href='https://www.linkedin.com/in/nvsyashwanth/' target="_blank"><img src='./assets/images/icons8-linkedin-48.png'></a>
+  <a href='https://github.com/NvsYashwanth' target="_blank"><img src='./assets/images/icons8-github-48.png'></a>
+  <a href='https://twitter.com/YashwanthNvs' target="_blank"><img src='./assets/images/icons8-twitter-48.png'></a>
+  <a href='https://medium.com/@nvsyashwanth' target="_blank"><img src='./assets/images/icons8-medium-new-48.png'></a>
+  <a href='mailto:nvsyashwanth338@gmail.com' target="_blank"><img src='./assets/images/icons8-gmail-48.png'></a>
+</p>
 
 # ***Contents***
 <ol>
@@ -77,7 +88,26 @@ This is an ongoing project. If you want to contribute, check out the contributio
  </li>
 
   <li><a href="learning-curves/">Learning Curves</a></li>
-  <li><a href="early-stopping/">Early Stopping</a></li>
+  <li><a href="linear-regression/">Linear Regression</a>
+    <ul>
+      <li><a href="linear-regression/#what-is-linear-regression">What is Linear Regression?</a></li>
+      <li><a href="linear-regression/#simple-linear-regression">Simple Linear Regression</a></li>
+      <li><a href="linear-regression/#multiple-linear-regression">Multiple Linear Regression</a></li>
+      <li><a href="linear-regression/#polynomial-regression">Polynomial Linear Regression</a></li>
+      <li><a href="linear-regression/#cost-function">Cost Function</a></li>
+      <li><a href="linear-regression/#training-methods-of-linear-regression-models">Training methods of linear regression models</a>
+        <ul>
+          <li><a href="linear-regression/">Normal Equation</a></li>
+          <li><a href="linear-regression/">Pseduoinverse using SVD</a></li>
+          <li><a href="linear-regression/">Gradient Descent</a></li>
+        </ul>
+      </li>
+      <li><a href="linear-regression/#a-polynomial-regression-example">A Polynomial Regression example</a></li>
+    </ul>
+  </li>
+  <li><a href="regularization_models/">Regualrization Models</a></li>
+  <li><a href="linear-regression-assumptions/">Linear Regression Assumptions</a></li>
+  <li><a href="logistic-regression/">Logistic Regression</a></li>
 </ol>
 
 ### ***MORE CONTENT COMING SOON!***
@@ -98,12 +128,12 @@ This is an ongoing project. If you want to contribute, check out the contributio
 </ol>
 
 
-# ***Contribution Guidlines***
+# ***Contribution Guidelines***
 <ol>
   <ul>
-   <li><a href="contribution-guidlines/#developers">Developers</a></li>
-   <li><a href="contribution-guidlines/#how-to-contribute">How to contribute?</a></li>
-   <li><a href="contribution-guidlines/#when-to-contribute">When to contribute?</a></li>
+   <li><a href="contribution-guidelines/#developers">Developers</a></li>
+   <li><a href="contribution-guidelines/#how-to-contribute">How to contribute?</a></li>
+   <li><a href="contribution-guidelines/#when-to-contribute">When to contribute?</a></li>
   </ul>
 </ol>
 

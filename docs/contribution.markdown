@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contribution Guidlines
-permalink: /contribution-guidlines/
-nav_order: 12
+title: Contribution Guidelines
+permalink: /contribution-guidelines/
+nav_order: 15
 ---
 
 ## ***Developers***
