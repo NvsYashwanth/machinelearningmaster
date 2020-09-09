@@ -14,7 +14,7 @@ This is an ongoing project. If you want to contribute, check out the contributio
 
 # ***Contents***
 <ol>
- <li><a href='what-is-machine-learning/'>What is Machine Learning?</a>
+ <li><a href='https://nvsyashwanth.github.io/machinelearningmaster/what-is-machine-learning/'>What is Machine Learning?</a>
   <ul>
    <li><a href='https://nvsyashwanth.github.io/machinelearningmaster/what-is-machine-learning/#arthur-samuel-1959'>Arthur Samuel</a></li>
    <li><a href='https://nvsyashwanth.github.io/machinelearningmaster/what-is-machine-learning/#tom-mitchell1997'>Tom Mitchell</a></li>
