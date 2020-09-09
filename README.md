@@ -13,10 +13,6 @@ This is an ongoing project. If you want to contribute, check out the contributio
 </p>
 
 <p align='center'>
-<h3><strong><em>Developed By NVS Yashwanth.</em></strong></h3>
-</p>
-
-<p align='center'>
   <a href='https://www.linkedin.com/in/nvsyashwanth/' target="_blank"><img src='./assets/images/icons8-linkedin-48.png'></a>
   <a href='https://github.com/NvsYashwanth' target="_blank"><img src='./assets/images/icons8-github-48.png'></a>
   <a href='https://twitter.com/YashwanthNvs' target="_blank"><img src='./assets/images/icons8-twitter-48.png'></a>
