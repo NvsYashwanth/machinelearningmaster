@@ -5,7 +5,7 @@
 
 <p align='center'>
 <h2><strong><em>Welcome to Machine Learning master.
-[Check out the website here.](https://nvsyashwanth.github.io/machinelearningmaster/)
+<a href='https://nvsyashwanth.github.io/machinelearningmaster/'>Check out the website here.</a>
 This site hosts explanations of machine learning concepts with just enough math and code.
 To understand the concepts better, various Machine Learning, Deep Learning projects with their code & README files can be found in the projects section.
 Links to various learning resources can be found as well.
