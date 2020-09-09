@@ -1,10 +1,11 @@
-# ***Machine Learning Master***
+# [***Machine Learning Master***](https://nvsyashwanth.github.io/machinelearningmaster/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/NvsYashwanth)
 
 ![](https://badgen.net/badge/Code/Python/blue?icon=https://simpleicons.org/icons/python.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Library/ScikitLearn/blue?icon=https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/Tools/pandas/blue?icon=https://simpleicons.org/icons/pandas.svg&labelColor=cyan&label)       ![](https://badgen.net/badge/Tools/numpy/blue?icon=https://upload.wikimedia.org/wikipedia/commons/1/1a/NumPy_logo.svg&labelColor=cyan&label)        ![](https://badgen.net/badge/Tools/matplotlib/blue?icon=https://upload.wikimedia.org/wikipedia/en/5/56/Matplotlib_logo.svg&labelColor=cyan&label)    ![](https://badgen.net/badge/icon/JupyterNotebook?icon=awesome&label)
 
 <p align='center'>
 <h2><strong><em>Welcome to Machine Learning master.
+[Check out the website here.](https://nvsyashwanth.github.io/machinelearningmaster/)
 This site hosts explanations of machine learning concepts with just enough math and code.
 To understand the concepts better, various Machine Learning, Deep Learning projects with their code & README files can be found in the projects section.
 Links to various learning resources can be found as well.
