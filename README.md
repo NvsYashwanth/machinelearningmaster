@@ -12,14 +12,6 @@ Make use of the navigation and  search bar to guide your way through the site.
 This is an ongoing project. If you want to contribute, check out the contribution guidelines regarding the same.</em></strong></h2>
 </p>
 
-<p align='center'>
-  <a href='https://www.linkedin.com/in/nvsyashwanth/' target="_blank"><img src='./assets/images/icons8-linkedin-48.png'></a>
-  <a href='https://github.com/NvsYashwanth' target="_blank"><img src='./assets/images/icons8-github-48.png'></a>
-  <a href='https://twitter.com/YashwanthNvs' target="_blank"><img src='./assets/images/icons8-twitter-48.png'></a>
-  <a href='https://medium.com/@nvsyashwanth' target="_blank"><img src='./assets/images/icons8-medium-new-48.png'></a>
-  <a href='mailto:nvsyashwanth338@gmail.com' target="_blank"><img src='./assets/images/icons8-gmail-48.png'></a>
-</p>
-
 # ***Contents***
 <ol>
  <li><a href='what-is-machine-learning/'>What is Machine Learning?</a>
