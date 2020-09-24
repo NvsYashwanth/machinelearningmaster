@@ -56,7 +56,6 @@ This is an ongoing project. If you want to contribute, check out the contributio
   </ul>
    
    <li><a href='https://nvsyashwanth.github.io/machinelearningmaster/understanding-gradient-descent/#the-optimization-procedure'>The optimization procedure</a></li>
-    <li>
     <li><a href='https://nvsyashwanth.github.io/machinelearningmaster/understanding-gradient-descent/#types-of-gradient-descent'>Types of Gradient Descent</a>
       <ul>
       <li><a href='https://nvsyashwanth.github.io/machinelearningmaster/understanding-gradient-descent/#batch-gradient-descent'>Batch Gradient Descent</a></li>
